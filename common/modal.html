@@ -1,0 +1,112 @@
+<div class='modal' id='myModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
+    <div class='modal-dialog modal-lg'>
+        <!-- 内容 -->
+        <div class='modal-content modal-con'>
+            <!-- 头部 -->
+            <div class='modal-header'>
+                <button type='button' class='close close-btn' data-dismiss='modal' aria-hidden='true'></button>
+            </div>
+            <!-- 主体 -->
+            <div class='modal-body'>
+                <!-- 左侧信息区 -->
+                <div class='l-info-box'>
+                    <div class='register'>
+                        <ul class='clearfix'>
+                            <li class='fl tab_con tab_con_left active'>
+                                <span class='register-arrow'></span>
+                                手机注册
+                            </li>
+                            <li class='fl tab_con tab_con_right'>
+                                <span class='register-arrow'></span>
+                                普通注册
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 表单切换区域 -->
+                    <div id='tab_content'>
+                        <!-- 左侧表单(手机注册) -->
+                        <div class='tab_content_left tab'>
+                            <div class='form-group'>
+                                <input class='form-control input-lg con_inp tel' type='text' placeholder='输入手机号'>
+                                <span class='error-icon'></span>
+                                <label class='control-label' for='inputSuccess2'>手机号不能为空</label>
+                            </div>
+                            <div class='form-group id_code_box'>
+                                <input class='form-control input-lg con_inp code' type='text' placeholder='短信验证码'>
+                                <span class='error-icon code-error-icon'></span>
+                                <div class='id_code'>
+                                    发送验证码
+                                </div>
+                                <label class='control-label' for='inputSuccess2'>验证码不能为空</label>
+                            </div>
+                            <div class='form-group eye_box has-feedback'>
+                                <input class='form-control input-lg con_inp pwd' type='password'
+                                    placeholder='密码(8-32位字母/数字/符号组合)'>
+                                <span class='error-icon pwd-error-icon'></span>
+                                <div class='eye'></div>
+                                <label class='control-label' for='inputSuccess2'>8-32位，需要字母/数字/符号其中2种或以上</label>
+                            </div>
+                            <input type='checkbox' value='' class='ck' checked='checked'>
+                            <span class='deal'>我同意金山网络服务使用协议</span>
+                            <button type='button' class='btn btn-default btn-lg btn-block submit submit1'>确定</button>
+                        </div>
+                        <!-- 右侧表单(普通注册) -->
+                        <div class='tab_content_right tab'>
+                            <div class='form-group'>
+                                <input class='form-control input-lg con_inp user' type='text'
+                                    placeholder='输入账号(首位字母,非邮箱,4-18位)'>
+                                <label class='control-label' for='inputSuccess2'>用户名不能为空</label>
+                            </div>
+                            <div class='form-group eye_box'>
+                                <input class='form-control input-lg con_inp pwd' type='password'
+                                    placeholder='密码(8-32位字母/数字/符号组合)'>
+                                <label class='control-label' for='inputSuccess2'>密码不能为空（8-32位，需要字母/数字/符号其中2种或以上）</label>
+                                <div class='eye'></div>
+                            </div>
+                            <div class='form-group'>
+                                <input class='form-control input-lg con_inp tel' type='text' placeholder='输入手机号'>
+                                <label class='control-label' for='inputSuccess2'>手机号不能为空</label>
+                            </div>
+                            <div class='form-group id_code_box'>
+                                <input class='form-control input-lg con_inp code' type='text' placeholder='短信验证码'>
+                                <div class='id_code'>
+                                    发送验证码
+                                </div>
+                                <label class='control-label' for='inputSuccess2'>验证码不能为空</label>
+                            </div>
+                            <p class='policy'>根据国家规定请填写真实身份信息，官方会依法保护您的隐私: </p>
+                            <div class='form-group bottom'>
+                                <input class='form-control input-lg con_inp real_name' type='text' placeholder='输入真实姓名'>
+                                <label class='control-label' for='inputSuccess2'>输入真实姓名</label>
+                            </div>
+                            <div class='form-group bottom'>
+                                <input class='form-control input-lg con_inp id_card' type='text' placeholder='输入身份证号码'>
+                                <label class='control-label' for='inputSuccess2'>输入身份证号码</label>
+                            </div>
+                            <input type='checkbox' value='' class='ck' checked='checked'>
+                            <span class='deal'>我同意金山网络服务使用协议</span>
+                            <button type='button' class='btn btn-default btn-lg btn-block submit submit2'>确定</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 右侧轮播区 -->
+                <div class='r-tabside-box'>
+                    <div class='right_slides'>
+                        <div class='right_slides_item'>
+                            <img src='./assets/images/modal/s-rig01.jpg' alt=''>
+                        </div>
+                        <div class='right_slides_item'>
+                            <img src='./assets/images/modal/s-rig02.jpg' alt=''>
+                        </div>
+                        <div class='right_slides_item'>
+                            <img src='./assets/images/modal/s-rig03.jpg' alt=''>
+                        </div>
+                        <div class='right_slides_item'>
+                            <img src='./assets/images/modal/s-rig04.jpg' alt=''>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

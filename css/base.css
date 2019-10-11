@@ -1,0 +1,90 @@
+/*css初始化*/
+/*1.清除默认样式*/
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	/*清除ie6图片默认边框*/
+	border: 0;
+	/*清除图片底部缝隙*/
+	vertical-align: middle;
+}
+input, textarea {
+	border: 1;
+	outline: 1;
+}
+/*2.写常用的样式*/
+body {
+	font: 16px arial, 'microsoft yahei';
+	color: #000;
+}
+.w {
+	width: 1100px;
+	margin: 0 auto;
+}
+a {
+	color: #000;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:before, .clearfix:after {
+	content: '';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+.f12 {
+	font-size: 12px;
+}
+.f14 {
+	font-size: 14px;
+}
+.f16 {
+	font-size: 16px;
+}
+.f18 {
+	font-size: 18px;
+}
+.f20 {
+	font-size: 20px;
+}
+.red {
+	color: #c81623;
+}
+.tc {
+	text-align: center;
+}
+/*字体图标 步骤
+	1.下载字体图标,复制到字体文件夹(fonts)
+	2.找到说明文件demo_index.html
+	3.按照说明文件复制到css(注意路径)
+	4.定义类名,使用字体图标(.iconfont)
+	5.在标签里边复制字体图标编码,调用.iconfont
+*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/iconfont.woff2') format('woff2'),
+      url('../fonts/iconfont.woff') format('woff'),
+      url('../fonts/iconfont.ttf') format('truetype'),
+      url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+	font-family: 'iconfont';
+}

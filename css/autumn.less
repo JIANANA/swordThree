@@ -1,0 +1,78 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+ul,li {
+    margin:0;
+    padding:0;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+// --------------顶部导航样式------------------------
+.jx3-top{
+    position: relative;
+    z-index:99;
+    width: 100%;
+    height: 50px;
+    min-width: 1200px;
+    line-height: 50px;
+    // text-align: center;
+    background-color: #1c2427;
+    display: block;
+    .inner-top{
+    margin:0 auto;
+    width:1200px;
+    height: 50px;
+    position: relative;
+    line-height: 50px;
+    z-index:1;
+    .fl {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 490px;
+        height: 50px;
+        .logo {
+            float: left;
+            padding-top:8px;
+            width: 81px;
+            height: 45px;
+        }
+        .slogan {
+            float: left;
+            padding-left:10px;
+            width: 395px;
+            height: 50px;
+            line-height: 50px;
+            background: url(../images/slogan.png) no-repeat left center ;
+        }
+    }
+    .fr {
+        width: 720px;
+        height: 50px;
+        line-height: 50px;
+        .links {
+            float:right;
+            a {
+                display: inline-block;
+                height: 50px;
+                text-decoration: none;
+                color:#949596;
+                font-size: 12px;
+                padding:0 12px;
+            }
+            a:hover {
+                color:#fff;
+            }
+        }
+    }
+    }
+}

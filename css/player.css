@@ -1,0 +1,1204 @@
+/* --------------大背景图---------------------------- */
+.main-layout{
+    left: 0;
+    right: 0;
+    background: url(../img/main-layout-bg.cd918f59.jpg)no-repeat;
+}
+.main-layout-container{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#header{
+    position: absolute;
+    top: 460px;
+}
+/* ------------------大背景图左上角logo----------------- */
+.main-layout-header {
+    position: relative;
+    height: 625px;
+}
+.main-layout-header-wrapper{
+    top: 35px;
+    position: absolute;
+}
+.banner-logo{
+    display: block;
+}
+.banner-logo-img{
+    display: block;
+    width: 240px;
+    height: 100px;
+    border: none;
+}
+/* ------------------------大背景图右上角logo------------- */
+.head-top-r{
+    float: right;
+    margin: 20px 10px 0 0;
+    width: 150px;
+    height: 35px;
+    background: url(../img/logor.png)no-repeat;
+    font-size: 16px;
+    line-height: 32px;
+    text-indent: 56px;
+}
+.head-top-r a{
+    color: #fff;  
+}
+/* -----------------------客户端下载----------------------- */
+.download{
+    padding: 0 50px;
+}
+.download-button {
+    display: block;
+    text-indent: -9999em;
+    width: 310px;
+    height: 85px;
+    background: url(../img/download-btn.2c78c88f.png) no-repeat;
+}
+/* -----------------------客户端需要的组件------------------ */
+.download-title{
+    margin-top: 25px;
+    color: black;
+    font-size: 14px;
+}
+/* ----------------------客户端四个功能--------------------- */
+.download-tools{
+    margin: 15px 0 20px;
+    overflow: hidden;
+}
+.download-tools li {
+    float: left;
+    margin-right: 25px;
+    width: 110px;
+    height: 30px;
+    border: 1px solid #313348;
+    background: hsla(0,0%,100%,.4);
+}
+.download-tools a{
+    display: block;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+}
+
+.popup_wrap {
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    height: 3140px;
+    left: 0;
+}
+.pop_banben {
+    width: 450px;
+    margin-left: -225px;
+    margin-top: 60px;
+}
+.popup_box {
+    display: none;
+    left: 50%;
+    top: 10%;
+    margin: 0 0 0 -263px;
+    z-index: 102;
+    position: fixed;
+    font-size: 12px;
+}
+.pop_title {
+    overflow: hidden;
+    width: 100%;
+    height: 54px;
+    background-color: #17181b;
+}
+.pop_title span {
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+.pop_title h3 {
+    line-height: 54px;
+    font-size: 18px;
+    text-indent: 32px;
+    color: #ededed;
+}
+.pop_table {
+    overflow: hidden;
+    padding: 0 0 20px;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+/* ---------------配置要求---------------------- */
+.main-layouted{
+    left: 0;
+    right: 0;
+}
+.hardware-asked{
+    margin-top: 0;
+    padding-top: 40px;
+}
+.main-layouted-container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.main-layouted-content {
+    overflow: hidden;
+}
+.hardware-askeded {
+    padding: 50px 60px 0;
+    background: url(../img/黑背景图.png) center 15px no-repeat;
+    overflow: hidden;
+}
+.hardware-asked-pc {
+    height: 250px;
+    width: 480px;
+    float: left;
+    display: inline;
+    padding-left: 20px;
+    margin-right: 35px;
+}
+.hardware-asked-pc-title{
+    background:url(../img/台式机配置要求.png)no-repeat;
+    text-indent: -9999em;
+}
+.hardware-asked-pc-tab ul {
+    margin-top: 10px;
+    border-bottom: 1px solid #bfa885;
+    font-size: 0;
+    overflow: hidden;
+}
+.hardware-asked-pc-tab li.cur span{
+    border:none;
+}
+.hardware-asked-pc-tab span{
+    display: block;
+    text-align: center;
+}
+.hardware-asked-pc-tab li.cur{
+    color: #fff;
+    background: url(../img/台式机小图.png)no-repeat;
+}
+.hardware-asked-pc-tab li{
+    float: left;
+    display: inline;
+    width: 112px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 16px;
+    color: #bfa885;
+    cursor:pointer;
+}
+.hardware-asked-pc-tab span{
+    display: block;
+    text-align: center;
+    border-right: 1px solid #bfa885;
+}
+.hardware-asked-pc-tab li{
+    line-height: 33px;
+    font-size: 16px;
+    color: #bfa885;
+    cursor:pointer;
+}
+/* --------------台式机配置CPU部分--------------- */
+.hardware-asked-pc-content {
+    padding-top: 20px;
+    font-size: 16px;
+    color: #caced8;
+    height: 125px;
+}
+.hardware-asked-pc-effect {
+    background: url(../img/台式机小图.jpg) no-repeat;
+    position: relative;
+    float: right;
+    width: 205px;
+    height: 114px;
+}
+.hardware-asked-pc-text-warp p {
+    padding-top: 9px;
+    color: #fff;
+}
+.hardware-asked-pc-effect p {
+    position: absolute;
+    bottom: 0;
+    padding-left: 25px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.hardware-asked-pc-text-warp {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+/* ------------------笔记本配置要求---------------------- */
+.hardware-requirement-pocket {
+    height: 250px;
+    width: 480px;
+    float: left;
+    display: inline;
+    padding-left: 20px;
+    margin-right: 35px;
+}
+.hardware-requirement-pocket-title {
+    background: url(../img/笔记本配置要求.png) no-repeat;
+    text-indent: -9999em;
+}
+
+.hardware-requirement-pocket-tab ul {
+    margin-top: 10px;
+    border-bottom: 1px solid #bfa885;
+    font-size: 0;
+    overflow: hidden;
+}
+.hardware-requirement-pocket-tab li.cur {
+    color: #fff;
+    background: url(../img/笔记本配置要求小图.png) no-repeat;
+}
+.hardware-requirement-pocket-tab li {
+    float: left;
+    display: inline;
+    width: 112px;
+    height: 33px;
+    line-height: 33px;
+    font-size: 16px;
+    color: #bfa885;
+    cursor: pointer;
+}
+.hardware-requirement-pocket-tab li.cur span {
+    border: none;
+}
+.hardware-requirement-pocket-tab span {
+    display: block;
+    text-align: center;
+    border-right: 1px solid #bfa885;
+}
+.hardware-requirement-pocket-content {
+    padding-top: 20px;
+    font-size: 16px;
+    color: #caced8;
+    height: 125px;
+}
+.hardware-requirement-pocket-effect {
+    background: url(../img/笔记本小图.jpg) no-repeat;
+    position: relative;
+    float: right;
+    width: 205px;
+    height: 114px;
+}
+.hardware-requirement-pocket-text-warp p {
+    padding-top: 5px;
+    color: #fff;
+}
+.hardware-requirement-pocket-effect p {
+    position: absolute;
+    bottom: 0;
+    padding-left: 25px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+.hardware-requirement-pocket-text-warp {
+    font-size: 12px;
+    line-height: 1.5;
+}
+/* -------------------游戏常用功能------------------------- */
+.game-self-service-layout {
+    position: relative;
+    min-height: 770px;
+}
+.main-layout-container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.main-layout-content {
+    overflow: hidden;
+}
+.game-self-service-login {
+    padding: 0 30px;
+}
+.game-self-service-title {
+    margin-top: 78px;
+    height: 38px;
+    text-indent: -999em;
+    background: url(../img/功能自助.png) 50% no-repeat;
+}
+
+
+.game-self-service-inset {
+    position: absolute;
+    left: -5px;
+    top: 425px;
+    display: block;
+    width: 331px;
+    height: 329px;
+    background: url(../img/指示牌.png) no-repeat;
+    z-index: 0;
+}
+.game-self-service-wrap {
+    margin-top: 60px;
+    padding: 0 50px;
+    height: 510px;
+    background: url(../img/功能大背景图.png) 50% no-repeat;
+}
+.game-self-service-user {
+    float: left;
+    display: inline;
+    width: 295px;
+    margin-right: 18px;
+}
+.game-self-service-login-btn {
+    display: block;
+    width: 177px;
+    height: 50px;
+    margin: 80px auto 70px;
+    text-indent: -999em;
+    background: url(../img/立即登陆.png) no-repeat;
+}
+.game-self-service-login-links {
+    font-size: 0;
+    text-align: center;
+    padding-left: 20px;
+}
+.game-self-service-login-links li {
+    float: left;
+    display: inline-block;
+    font-size: 16px;
+}
+.game-self-service-login-links a {
+    color: #efdfc2;
+    padding: 5px 10px;
+}
+.game-self-service-login {
+    padding: 0 30px;
+}
+.game-self-service-user-name {
+    padding: 40px 0 20px;
+    color: #fff06f;
+    text-align: center;
+}
+.game-self-service-user-links {
+    text-align: center;
+}
+.game-self-service-user-links li {
+    display: inline;
+}
+.game-self-service-user-links a {
+    padding: 20px;
+    color: #96ff5d;
+    text-decoration: underline;
+}
+.game-self-service-safe {
+    margin-top: 30px;
+}
+.game-self-service-safe-level {
+    color: #ffeccb;
+    font-size: 16px;
+}
+.game-self-service-safe-level span {
+    color: #ff8f1c;
+}
+.game-self-service-safe-status {
+    padding: 15px 0;
+}
+.game-self-service-safe-status li.head {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.game-self-service-safe-status li {
+    float: left;
+    display: inline-block;
+    width: 19%;
+    margin-right: 1px;
+    height: 7px;
+    background: #4b6786;
+}
+.game-self-service-safe-status li.last {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.game-self-service-ip h3 {
+    color: #ffeccb;
+}
+.game-self-service-ip p {
+    padding: 2px 0;
+    color: #b3cbe5;
+    font-size: 14px;
+}
+.dialog-title {
+    display: block;
+    color: #2c4a6b;
+    font-size: 26px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.find-account-description {
+    color: #2c4a6b;
+    font-size: 16px;
+    margin: 30px 0 40px;
+}
+.find-account-form-wrapper {
+    font-size: 0;
+}
+.find-account-form-group {
+    margin: 0 auto;
+    font-size: 0;
+}
+.find-account-label {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    font-size: 16px;
+    color: #2c4a6b;
+    width: 260px;
+    margin: 0 4px;
+    text-align: right;
+    vertical-align: top;
+}
+.find-account-form-control {
+    line-height: 1.5;
+    color: #666;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 274px;
+}
+.jx3server-list-box {
+    width: 100%;
+}
+.jx3server-list-wrap {
+    padding: 5px 0;
+    width: 100%;
+}
+.find-account-form-control .jx3server-list-wrap select {
+    padding: 6px 12px;
+    height: 28px;
+    border: 1px solid #878787;
+    background: #fff url(../img/下三角.png) no-repeat 100%;
+    
+    -webkit-appearance: none;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.jx3server-list-wrap {
+    padding: 5px 0;
+    width: 100%;
+}
+.find-account-helper {
+    display: block;
+    padding-left: 268px;
+    padding-top: 8px;
+    color: #b12719;
+    width: 300px;
+    font-size: 16px;
+}
+.oss-form-group {
+    margin: 0 auto;
+    font-size: 0;
+    display: block;
+}
+.oss-form-group>label{
+    vertical-align: middle;
+}
+.oss-form-group+.oss-form-group {
+    margin-top: 18px;
+}
+.oss-form-group>label{
+    vertical-align: middle;
+}
+.oss-form-group span{
+    vertical-align: middle;
+}
+.oss-form-group input{
+    vertical-align: middle;
+}
+.find-account-result.oss-form-group span {
+    line-height: 40px;
+}
+.find-account-operation {
+    padding-top: 62px;
+    text-align: center;
+}
+.oss-button-brace-button {
+    background: url(../img/功能自助上边的小图.png) no-repeat;
+}
+.oss-button {
+    border: none;
+    border-radius: 0;
+    outline: none;
+    width: 177px;
+    line-height: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.game-self-service-tools {
+    float: left;
+    width: 785px;
+    display: inline;
+}
+.game-self-service-tools-wrap {
+    padding: 35px 50px;
+}
+.game-self-service-tools-list, .secret-lock {
+    overflow: hidden;
+}
+.game-self-service-tools-left {
+    float: left;
+    margin-right: 25px;
+    width: 395px;
+}
+.tools-title-desc {
+    float: right;
+    color: #888;
+    font-size: 14px;
+}
+.tools-title-text {
+    display: inline-block;
+    font-size: 16px;
+    color: #7a623d;
+    border-bottom: 1px solid #7a623d;
+}
+.tools {
+    overflow: hidden;
+    padding: 18px 0 20px;
+}
+.tools-item {
+    position: relative;
+    border-right: 1px dashed #dfe1e4;
+    float: left;
+    width: 130px;
+    text-align: center;
+    cursor: pointer;
+}
+.tools-icon {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    width: 130px;
+    height: 65px;
+    text-align: center;
+}
+
+.tools-phone {
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(../img/信息.png);
+    background-position: -164px 0;
+    width: 32px;
+    height: 50px;
+}
+.tools-title {
+    font-size: 16px;
+    color: #1c1c1c;
+}
+.tools-text {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: #777;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.steps-bg {
+    position: relative;
+    margin: 0 auto 50px;
+    width: 682px;
+    height: 55px;
+    background: url(../img/三个圆.png) no-repeat;
+    background-color: #f1f1f1;
+}
+.steps-loading-wrap {
+    display: block;
+    padding: 27px 25px 0;
+    font-size: 0;
+}
+.steps-loading {
+    display: inline-block;
+    width: 25%;
+    height: 2px;
+    background: #b8a683;
+}
+.steps-step-list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150%;
+}
+.steps-step-mark {
+    position: relative;
+    left: -52px;
+    float: left;
+    width: 160px;
+    margin-right: 153px;
+    font-size: 18px;
+    color: #2c4a6b;
+    text-align: center;
+}
+.steps-inner-wrap {
+    display: inline-block;
+    padding: 6px;
+}
+.steps-inner.current {
+    background: url(../img/小黄圆.png) no-repeat;
+}
+.steps-inner {
+    display: block;
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    color: #fff;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0;
+}
+.validate-ic-description {
+    color: #2c4a6b;
+    font-size: 16px;
+    margin: 30px 0 40px;
+}
+.validate-ic-operation {
+    padding-top: 62px;
+    text-align: center;
+}
+.oss-button-brace-button {
+    background: url(../img/蓝色小背景图.png) no-repeat;
+}
+.ube-fillup-new-mobile-description {
+    color: #2c4a6b;
+    font-size: 16px;
+    margin: 30px 0 40px;
+}
+.ube-fillup-new-mobile-operation {
+    padding-top: 62px;
+    text-align: center;
+}
+.ubm-feedback-wrapper {
+    height: 400px;
+    background: url(../img/小情侣.png) 100% no-repeat;
+    width: 700px;
+    margin: auto;
+}
+.ubm-feedback-content {
+    text-align: left;
+    width: 400px;
+    padding-left: 120px;
+}
+.ubm-feedback-message {
+    padding-top: 124px;
+    padding-bottom: 14px;
+    font-size: 18px;
+    color: #ff4800;
+}
+.tools-mail {
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(../img/信息.png);
+    width: 52px;
+    height: 34px;
+    background-position: -89px -78px;
+}
+.ubm-feedback-email {
+    color: #4e6e91;
+    font-size: 18px;
+}
+.tools-item.last {
+    border: none;
+    
+}
+.tools-item {
+    position: relative;
+    
+    float: left;
+    width: 130px;
+    text-align: center;
+    cursor: pointer;
+}
+.tools-card {
+    background-position: 0 -128px;
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(../img/信息.png);
+    width: 52px;
+    height: 34px;
+}
+.ube-fillup-new-id-num-operation {
+    padding-top: 62px;
+    text-align: center;
+}
+.tools-title-wrap {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #bec3c9;
+}
+.tools-gm-phone {
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(../img/信息.png);
+    background-position: -123px 0;
+    width: 41px;
+    height: 50px;
+}
+.tools-gm-card {
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(../img/信息.png);
+    height: 34px;
+    background-position: -61px -42px;
+    width: 58px;
+}
+
+.tools-gm-card-update {
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(../img/信息.png);
+    height: 34px;
+    background-position: -58px 0;
+    width: 65px;
+}
+.game-self-service-tools-right {
+    float: left;
+    width: 265px;
+}
+.tools-update-phone {
+    background-position: 0 -78px;
+    width: 41px;
+    height: 50px;
+
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(../img/信息.png);
+}
+.check-old-mobile-description {
+    color: #2c4a6b;
+    font-size: 16px;
+    margin: 30px 0 40px;
+}
+.check-old-mobile-operation {
+    padding-top: 62px;
+    text-align: center;
+}
+.tools-update-mail {
+    background-position: 0 -42px;
+    width: 61px;
+    height: 36px;
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(../img/信息.png);
+}
+.check-old-email-description {
+    color: #2c4a6b;
+    font-size: 16px;
+    margin: 30px 0 40px;
+}
+.check-old-email-operation {
+    padding-top: 62px;
+    text-align: center;
+}
+.tools-icon-hot {
+    background: 10px 10px url(../img/hot.gif)no-repeat;
+}
+.tools-check-role{
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(../img/信息.png);
+    background-position: 0 0;
+    width: 58px;
+    height: 42px;
+}
+.server-role-title {
+    display: block;
+    color: #2c4a6b;
+    font-size: 26px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.server-role-description {
+    margin-bottom: 10px;
+}
+.server-role-init {
+    text-align: center;
+    font-size: 16px;
+}
+.server-role-loading {
+    font-size: 0;
+    background: #f1f1f1;
+}
+.server-role-loading div {
+    transition: all .5s;
+    width: 0;
+    height: 10px;
+    background: #b9c5d7;
+}
+.server-role-table-wrap {
+    margin-top: 20px;
+    width: 102%;
+    max-height: 355px;
+    overflow-y: auto;
+}
+.server-role-table {
+    width: 95%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    font-size: 14px;
+    border: 1px solid #21283d;
+    display: table-row;
+    vertical-align: inherit;
+}
+.server-role-table th {
+    padding: 5px;
+    background: #21283d;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #21283d;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.server-role-table td {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #21283d;
+}
+.server-role-tips {
+    padding: 10px 0;
+    float: right;
+}
+.server-role-refresh {
+    float: left;
+    cursor: pointer;
+    padding: 10px 0;
+}
+.tools-lock-clear {
+    background-position: -41px -78px;
+    width: 48px;
+    height: 41px;
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url(../img/信息.png);
+}
+.game-self-service-tools-list {
+    overflow: hidden;
+}
+.secret-lock {
+    padding-top: 15px;
+    overflow: hidden;
+}
+.secret-lock-linglong {
+    float: left;
+    margin-right: 50px;
+    padding-left: 165px;
+    width: 245px;
+    background: url(../img/电池三.png) 0 no-repeat;
+}
+.secret-lock h3 {
+    color: #21283d;
+    font-size: 16px;
+}
+.secret-lock ul {
+    padding: 15px 0;
+    overflow: hidden;
+}
+.secret-lock li {
+    float: left;
+    margin-right: 10px;
+    display: inline;
+}
+.secret-lock a {
+    text-decoration: none;
+    display: inline-block;
+    width: 110px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    color: #fff;
+    background: url(../img/小蓝.png) no-repeat;
+}
+.steps-step-list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150%;
+}
+.steps-step-mark {
+    position: relative;
+    left: -52px;
+    
+    width: 160px;
+    
+    font-size: 18px;
+    color: #2c4a6b;
+    text-align: center;
+}
+.check-mobile-description {
+    color: #2c4a6b;
+    font-size: 16px;
+    margin: 30px 0 40px;
+}
+.check-mobile-operation {
+    padding-top: 62px;
+    text-align: center;
+}
+.fillup-new-encrypted-description {
+    color: #2c4a6b;
+    font-size: 16px;
+    margin: 30px 0 40px;
+}
+.fillup-new-encrypted-operation {
+    padding-top: 62px;
+    text-align: center;
+}
+.encrypted-reject-bind-description {
+    color: #2c4a6b;
+    font-size: 16px;
+    margin: 30px 0 40px;
+}
+.check-encrypted-status-operation {
+    padding-top: 62px;
+    text-align: center;
+}
+.secret-lock-mobile {
+    float: left;
+    padding-left: 85px;
+    width: 140px;
+    background: url(../img/剑.png) 0 no-repeat;
+}
+/* ---------------------------------------收费模式-------------------------------------------------------- */
+.charge-mode-layout {
+    background: #f6f8fb url(../img/小白条.jpg) 100% 100% no-repeat;
+}
+.main-layout-content {
+    overflow: hidden;
+}
+p {
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.charge-mode-p {
+    margin: 45px 0;
+    text-align: center;
+}
+.charge-mode-button {
+
+    display: inline-block;
+    margin: 0 15px;
+    width: 177px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    background: url(../img/收费模式蓝条.png) no-repeat;
+}
+/* ------------------------------------------常见问题--------------------------------------------------------------------- */
+.faq-layout {
+    width: 100%;
+    overflow: hidden;
+}
+.faq-layout {
+    position: relative;
+    background: url(../img/常见问题白条.jpg) 0 0 no-repeat;
+}
+.main-layout-content {
+    overflow: hidden;
+}
+.faq-inset {
+    position: absolute;
+    right: -245px;
+    bottom: 70px;
+    display: block;
+    width: 325px;
+    height: 411px;
+    background: url(../img/其他问题小人.png) no-repeat;
+    z-index: -1;
+}
+.faq-title {
+    margin-top: 50px;
+    text-indent: -999em;
+    height: 38px;
+    background: url(../img/常见问题头部.png) 50% no-repeat;
+}
+.faq-list {
+    padding: 40px 50px 10px;
+    overflow: hidden;
+}
+.faq-list ul {
+    width: 110%;
+}
+.faq-list li {
+    float: left;
+    display: inline;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.faq-item {
+    position: relative;
+    width: 542px;
+}
+.faq-item-head {
+    display: block;
+    width: 542px;
+    height: 6px;
+    background: url(../img/细白条.jpg) no-repeat;
+}
+.faq-item-content {
+    padding: 0 16px;
+    height: 152px;
+    overflow: hidden;
+    background: #f6f8fb;
+    border-right: 1px solid #b2becd;
+    border-left: 1px solid #b2becd;
+}
+.faq-item-question {
+    padding: 10px 0 10px 36px;
+    background: url(../img/Q.jpg) left 10px no-repeat;
+    border-bottom: 1px solid #b2becd;
+    font-size: 16px;
+    line-height: 20px;
+}
+.faq-item-answer {
+    padding: 10px 0 10px 36px;
+    background: url(../img/A.jpg) left 10px no-repeat;
+    font-size: 14px;
+    color: #6b6f77;
+}
+.faq-item-blank {
+    height: 10px;
+    background: #f6f8fb;
+    border-right: 1px solid #b2becd;
+    border-left: 1px solid #b2becd;
+}
+.faq-more-detail {
+    position: absolute;
+    padding: 0 10px;
+    left: 1px;
+    bottom: 6px;
+    width: 520px;
+    font-size: 14px;
+    color: #6b6f77;
+    box-shadow: 0 -2px 5px #f6f8fb;
+    background: #f6f8fb;
+    text-align: center;
+    cursor: pointer;
+}
+.faq-item-foot {
+    display: block;
+    width: 542px;
+    height: 6px;
+    background: url(../img/细白条.jpg) no-repeat;
+}
+.faq-more {
+    display: block;
+    margin: 10px auto;
+    width: 1100px;
+    height: 37px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 37px;
+    color: #939598;
+    background: url(../img/最下边白条.png) no-repeat;
+}
+.faq-ask-question {
+    display: block;
+    margin: 20px auto 40px;
+    width: 249px;
+    height: 37px;
+    text-indent: -999em;
+    background: url(../img/提问.png) no-repeat;
+}
+/* <!-- --------------------------------------右边竖列锚点定位--------------------------------------- --> */
+#page-right-sticky-nav {
+    position: fixed;
+    right: 22px;
+    background: url(../img/锚点定位.png);
+    width: 78px;
+    height: 661px;
+    top: 50%;
+    margin-top: -330px;
+    z-index: 20;
+}
+.sticky-top {
+    background: url(../img/锚点定位.png) top no-repeat;
+    width: 100%;
+    height: 48px;
+}
+.sticky-nav-box {
+    height: 556px;
+    width: 100%;
+}
+.sn-1 {
+    background-position: center -48px;
+}
+.sticky-nav {
+    width: 100%;
+    height: 93px;
+    background-repeat: no-repeat;
+    background-image: url(../img/锚点定位.png);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.sn-2 {
+    background-position: center -141px;
+}
+.sn-3 {
+    background-position: center -234px;
+}
+.sn-4 {
+    background-position: center -327px;
+}
+.sticky-nav.act{
+    background-image: url(../img/锚点定位.png);
+}
+.sn-5 {
+    background-position: center -420px;
+}
+.sn-6 {
+    background-position: center -513px;
+}
+.sticky-bottom {
+    background: url(../img/锚点定位.png) bottom no-repeat;
+    width: 100%;
+    height: 60px;
+}

@@ -1,0 +1,400 @@
+// 样式重置
+a {
+    text-decoration: none;
+    color: #66696b;
+}
+.mpnav-table a:hover {
+    text-decoration: none;
+}
+.skill-table span {
+    font-size: 16px;
+    line-height: 26px;
+}
+a, a:hover, a:focus {
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+a.link:hover {
+    text-decoration: none;
+}
+a.login:hover {
+    cursor: pointer;
+
+}
+button {
+    background: none;
+    border: 0;
+    outline: none;
+}
+/*禁用长按事件*/
+button{border:0;outline:none;}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #666666;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #666666;
+}
+input:-ms-input-placeholder{
+  color: #666666;
+}
+input::-webkit-input-placeholder{
+  color: #666666;
+}
+p {
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+html, body, h1, h2, h3, h4, h5, h6, p, br, form, input, button, textarea, select, fieldset, legend, blockquote, ul, ol, li, dl, dt, dd, pre, table, caption, tr, td, th {
+    margin: 0;
+    padding: 0;
+}
+body,html {
+    width: 100%;
+    font-weight: 400;
+    position: relative;
+    -webkit-transition: all 0.3s linar 0s;
+    transition: all 0.3s linar 0s;
+}
+html {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Arial, HelveticaNeue, Helvetica, "BBAlpha Sans", sans-serif;
+}
+ul,
+li {
+    list-style: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+// 模态框
+.modal {
+    .modal-dialog {
+        .modal-con {
+            width: 840px;
+            height: 908px;
+            background: url(../assets/images/modal/bg-reg-pop.f3f7c6e5.png) no-repeat center;
+            background-size: cover;
+            // 头部
+            .modal-header {
+                height: 150px;
+                button.close-btn {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+            // 主体
+            .modal-body {
+                position: relative;
+                // 左侧表单区
+                .l-info-box {
+                    width: 70%;
+                    padding: 10px 33px 10px 30px;
+                    .register {
+                        .tab_con {
+                            width: 220px;
+                            height: 60px;
+                            text-align: center;
+                            line-height: 50px;
+                            background: url(../assets/images/modal/btn-sprite.98e028d8.png) no-repeat 0 0;
+                            background-size: 452px 250px;
+                            margin-right: 30px;
+                            font-size: 22px;
+                            color: #296f81;
+                        }
+                        .tab_con.tab_con_right {
+                            margin-right: 0;
+                            margin-left: 30px;
+                        }
+                        .tab_con.active {
+                            width: 220px;
+                            height: 60px;                  
+                            background: url(../assets/images/modal/btn-sprite.98e028d8.png) no-repeat -230px 0;
+                            background-size: 452px 250px;
+                            color: #fff;
+                        }
+                    }
+                    #tab_content {
+                        .error-icon {
+                            width: 24px;
+                            height: 24px;
+                            position: absolute;
+                            top: 105px;
+                            right: 298px;
+                            background: url(../assets/images/modal/icon-error.png) no-repeat;
+                            display: none;
+                        }
+                        .error-icon.active {
+                            display: block;
+                        }
+                        .code-error-icon {
+                            top: 10px;
+                            right: 184px;
+                        }
+                        .pwd-error-icon {
+                            top: 11px;
+                            right: 64px;
+                        }
+                        .control-label {
+                            display: none;
+                        }
+                        .control-label.active {
+                            display: block;
+                        }
+                        // 左侧表单(手机注册)
+                        .tab_content_left {
+                            .con_inp {
+                                position: relative;
+                                background: #f2f2f2;
+                                // margin-bottom: 30px;
+                            }
+                            .error-icon {
+                                width: 24px;
+                                height: 24px;
+                                position: absolute;
+                                top: 105px;
+                                right: 298px;
+                                background: url(../assets/images/modal/icon-error.png) no-repeat;
+                                display: none;
+                            }
+                            .error-icon.active {
+                                display: block;
+                            }
+                            .code-error-icon {
+                                top: 10px;
+                                right: 184px;
+                            }
+                            .pwd-error-icon {
+                                top: 11px;
+                                right: 64px;
+                            }
+                            .control-label {
+                                display: none;
+                            }
+                            .control-label.active {
+                                display: block;
+                            }
+                            .id_code_box {
+                                position: relative;
+                                .id_code {
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    width: 35%;
+                                    height: 46px;
+                                    text-align: center;
+                                    line-height: 292%;
+                                    font-size: 16px;
+                                    background: #c6a751;
+                                    color: #fff;
+                                }
+                            }
+                            .eye_box {
+                                position: relative;
+                                .eye {
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    margin: 5px;
+                                    width: 50px;
+                                    height: 90%;
+                                    background: url(../assets/images/modal/eyes.60537d64.png) no-repeat 0 -5px;
+                                    background-size: 52px 244px;
+                                }
+                                .eye.active {
+                                    background: url(../assets/images/modal/eyes.60537d64.png) no-repeat 0 -103px;
+                                }
+                            }
+                            .deal{
+                                color: #296f81
+                            }
+                            .submit {
+                                width: 452px;
+                                height: 58px;
+                                margin-top: 35px;
+                                margin-left: 22px;
+                                border: 0;
+                                outline: none;
+                                background: url(../assets/images/modal/btn-sprite.98e028d8.png) no-repeat 0 -66px;
+                                background-size: 452px 250px;
+                                color: #fff;
+                                font-size: 18px;
+                            }
+                            .submit.active {
+                                background-position: 0 -133px;
+                            }
+                        }
+                        .tab_content_left.active {
+                            display: block;
+                        }
+                        // 右侧表单(普通注册)
+                        .tab_content_right {
+                            display: none;
+                            .con_inp {
+                                background: #f2f2f2;
+                                // margin-bottom: 30px;
+                            }
+                            .id_code_box {
+                                position: relative;
+                                .id_code {
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    width: 35%;
+                                    height: 46px;
+                                    text-align: center;
+                                    line-height: 292%;
+                                    font-size: 16px;
+                                    background: #c6a751;
+                                    color: #fff;
+                                }
+                            }
+                            .eye_box {
+                                position: relative;
+                                .eye {
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    margin: 5px;
+                                    width: 50px;
+                                    height: 90%;
+                                    background: url(../assets/images/modal/eyes.60537d64.png) no-repeat 0 -5px;
+                                    background-size: 52px 244px;
+                                }
+                                .eye.active {
+                                    background-position: 0 -103px;
+                                }
+                            }
+                            .bottom {
+                                margin-bottom: 20px;
+                            }
+                            .deal, .policy{
+                                color: #296f81
+                            }
+                            .submit {
+                                width: 452px;
+                                height: 58px;
+                                // margin-top: 35px;
+                                margin-left: 22px;
+                                border: 0;
+                                outline: none;
+                                background: url(../assets/images/modal/btn-sprite.98e028d8.png) no-repeat 0 -66px;
+                                background-size: 452px 250px;
+                                color: #fff;
+                                font-size: 18px;
+                            }
+                            .submit.active {
+                                background-position: 0 -133px;
+                            }
+                        }
+                        .tab_content_right.active {
+                            display: block;
+                        }
+                    }
+                }
+                // 右侧轮播区
+                .r-tabside-box {
+                    width: 260px;
+                    height: 280px;
+                    position: absolute;
+                    right: 0;
+                    top: -15px;
+                    .right_slides {
+                        .right_slides_item {
+                            // transition: all linear 5s;
+                            // -webkit-transition: all linear 5s;
+                            display: none;
+                            opacity: 0;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .right_slides_item.current {
+                            display: block;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 头部导航
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    min-width: 1200px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    // background: url(../assets/images/bg-rtable.png);
+    background: #20282b;
+    .inner-content {
+        margin: 0 auto;
+        padding: 0;
+        width: 1200px;
+        height: 50px;
+        line-height: 50px;
+        position: relative;
+        .l-nav {
+            cursor: pointer;
+            float: left;
+            width: 490px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 10;
+            .logo {
+                float: left;
+                // padding: 10px 0 0;
+                width: 81px;
+                height: 46px;
+                text-align: left;
+            }
+            .slogan {
+                float: left;
+                margin: 0;
+                padding: 0 0 5px 10px;
+                width: 395px;
+                height: 50px;
+                line-height: 50px;
+                background: url(../assets/images/slogan.png) no-repeat center ;
+            }
+        }
+        .r-nav {
+            float: right;
+            margin: 0;
+            padding: 0 0 0 10px;
+            width: 720px;
+            height: 50px;
+            .t-links {
+                float: right;
+                a {
+                    font-size: 14px;
+                    padding: 0 12px;
+                    height: 50px;
+                    display: inline-block;
+                    color: #66696b;
+                }
+                a.hlight {
+                    color: #949596;
+                }
+            }
+        }
+    }
+}

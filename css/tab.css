@@ -1,0 +1,109 @@
+.fl {
+    float: left;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+li {
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ======================================== */
+
+
+
+.tab {
+    width:610px;
+    height: 23px;
+    background-color: pink;
+    position: relative;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.tab span {
+    font-size: 18px;
+    padding: 0 5px;
+    border-left: 4px solid #2c8ba3;
+}
+
+.tab .arr {
+    background-image: url(../img/arr_down.png);
+    background-position: center;
+    width: 50px;
+    height: 9px;
+    position: absolute;
+    bottom: -5px;
+}
+.tab .arr1{
+    left: 100px;
+    /* display: none; */
+}
+.tab .arr2 {
+    left: 178px;
+}
+.tab .arr3{
+    left: 256px;
+    
+}
+
+.tab .layer {
+    height: 5px;
+    width: 478px;
+    background-image: url(../img/xfe-layer-160.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 85px;
+}
+
+.tab .in li {
+    margin: 0 15px;
+    color: #000;
+
+}
+
+.tab .top {
+    line-height: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tab .top li {
+    margin: 0 2px;
+    color: #2c8ba3;
+}
+
+.tab .top a:hover li {
+    color: #a77b3c;
+}
+
+.tab .top .dash {
+    height: 3px;
+    width: 22px;
+    margin-top: 5px;
+    background: url(../img/dash_off1.png) center no-repeat;
+}
+
+.tab .top .more {
+    height: 15px;
+    width: 16px;
+    background-image: url(../img/more_off.png);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.tab .top a:hover .dash {
+    background-image: url(../img/dash_on.png);
+}
+
+.tab .top a:hover .more {
+    background-image: url(../img/more_on.png);
+    transform: rotate(180deg);
+}

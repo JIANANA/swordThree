@@ -1,0 +1,630 @@
+.top{
+   height: 48px;
+   background-image: url(./../images/bg-top.PNG);
+   line-height: 48px;
+}
+.top .ben .img1{
+    float: left;
+    /* padding-top: 7px; */
+    /* height: 48px; */
+    line-height: 48px;
+    padding-top: 7px;
+}
+.top .ben .img2{
+    float: left;
+    padding-top: 13px;
+}
+.top .ben ul{
+    float: right;
+}
+.top .ben li {
+    float: left;
+    font-size: 12px;
+    padding-left: 20px;
+    color: #b0b0b0;
+}
+.top .ben ul li .last{
+    color:#fff;
+}
+nav{
+    height: 150px;
+    background-image: url(./../images/bg-head.jpg);
+}
+.cata img{
+    float: left;
+}
+.ul1{
+    float: left;
+    line-height: 150px;
+    margin: 0 35px;
+
+}
+.ul1 a{
+    float: left;
+    width: 90px;
+    height: 30px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #fff;
+    border-right: 1px solid #1a1a1a;
+}
+.ul1 a li{
+    position: relative;
+    top: -80px;
+    height: 140px;
+    line-height: 180px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.ul1 a li span{
+    /* display: none; */
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 35px;
+    height: 35px;
+    /* background-image: url(./../images/emoji.png); */
+    /* background-color: #fff; */
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+  
+}
+.emoji_1{
+     background-image: url(./../images/emoji.png);
+     background-position: 0 0px;
+     display: block;
+}
+li:hover .emoji_1{
+    transition: all 0.8s;
+    display:block;
+}
+.emoji_2{
+    background-image: url(./../images/emoji.png);
+    background-position: -38px 0px;
+    display: none;
+    
+}
+li:hover .emoji_2{
+    transition: all 0.8s;
+    display:block;
+}
+.emoji_3{
+    background-image: url(./../images/emoji.png);
+    background-position: -80px 0px;
+    display: none;
+}
+li:hover .emoji_3{
+    transition: all 0.8s;
+    display:block;
+}
+.emoji_4{
+    background-image: url(./../images/emoji.png);
+    background-position: -120px 0px;
+    display: none;
+}
+li:hover .emoji_4{
+    transition: all 0.8s;
+    display:block;
+}
+.emoji_5{
+    background-image: url(./../images/emoji.png);
+    background-position: -161px 0px;
+    display: none;
+}
+li:hover .emoji_5{
+    transition: all 0.8s;
+    display:block;
+}
+.emoji_6{
+    background-image: url(./../images/emoji.png);
+    background-position: -199px 0px;
+    display: none;
+}
+li:hover .emoji_6{
+    transition: all 0.8s;
+    display:block;
+}
+.emoji_7{
+    background-image: url(./../images/emoji.png);
+    background-position: -240px 0px;
+    display: none;
+}
+li:hover .emoji_7{
+    transition: all 0.8s;
+    display:block;
+}
+.emoji_8{
+    background-image: url(./../images/emoji.png);
+    background-position: -278px 0px;
+    display: none;
+}
+li:hover .emoji_8{
+    transition: all 0.8s;
+    display:block;
+}
+.register{
+    /* float: left; */
+    /* margin-top: 65px; */
+    padding-top: 50px;
+}
+.register a p{
+    float: left;
+    font-size: 14px;
+    color: #f0f0f0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.register .search-box{
+    height: 32px;
+    width: 162px;
+    border: 1px solid #b0b0b0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.register .search-box input{
+    width: 130px;
+    border: 0;
+    background: none;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    text-indent: 0.5em;
+    color: #e2e2e2;
+    float: left;
+    outline: 0;
+    
+}
+.register .search-box button{
+    float: left;
+    width: 32px;
+    height: 30px;
+    background: url(./../images/search.png) no-repeat;
+    cursor: pointer;
+    border: 0;
+    margin-top:5px;
+    /* background: none; */
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    text-indent: 0.5em;
+    color: #e2e2e2;
+    float: left;
+    outline: 0;
+}
+
+#piccc {
+    display: block;
+    width: 100%;
+    height: 400px;
+    text-align: center
+
+}
+#piccc img {
+    width: 100%;
+    display: block;
+    height: 400px;
+    margin: 0 auto;
+    /* transform: translateY(65px) scale(1.5); */
+    /* z-index: -333; */
+}
+.big-box{
+    padding-top: 62px;
+    /* margin-top: 50px; */
+}
+.picture .t1{
+    /* float: left; */
+    height: 50px;
+    line-height: 50px;
+}
+.picture .t1 .emoji0{
+    float:left;
+    width: 35px;
+    height: 35px;
+    /* display: inline-block; */
+    margin-top: 7px;
+    margin-right: 20px;
+    background-image: url(../images/emoji.png);
+    background-position: 0px 0;
+}
+.picture .t1 h1{
+    float: left;
+    width: 400px;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 10px;
+}
+.picture .t1 .more1{
+    float: right;
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 6px;
+    color: #9dcdfe;
+    border: 2px solid #9dcdfe;
+    border-radius: 5px;
+    text-align: center;
+}
+.picture .t1 .more1 a{
+    font-size: 16px;
+    color: #9dcdfe;
+}
+.infect1{
+    float: left;
+    display:block;
+    background: #fff;
+    margin: 25px auto;
+    box-shadow: 2px 3px 8px #ccc;
+    cursor: pointer;
+}
+.infect1 li{
+    float: left;
+    width: 207px;
+    height: 260px;
+    display: block;
+    margin: 14px 6px 0 6px;
+}
+.infect1 li img{
+    width: 207px;
+    height: 180px;
+    display: block;
+    overflow: hidden;
+}
+.infect1 li p{
+    background-image: url(./../images/icon.png);
+    background-position: 0 -148px;
+    font-size: 16px;
+    color: #3a3a3a;
+    padding-right: 5px;
+    margin-top: 35px;
+    height: 45px;
+    line-height: 45px;
+    text-indent: 30px;
+}
+
+
+
+
+
+
+
+
+.cos .t2{
+    /* float: left; */
+    height: 50px;
+    line-height: 50px;
+}
+.cos .t2 .emoji2{
+    float: left;
+    width: 35px;
+    height: 35px;
+    /* display: inline-block; */
+    margin-top: 7px;
+    margin-right: 20px;
+    background-image: url(../images/emoji.png);
+    background-position: -40px 0;
+}
+.cos .t2 h1{
+    float: left;
+    width: 400px;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 10px;
+}
+.cos .t2 .more2{
+    float: right;
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 6px;
+    color: #9dcdfe;
+    border: 2px solid #9dcdfe;
+    border-radius: 5px;
+    text-align: center;
+}
+.cos .t2 .more2 a{
+    font-size: 16px;
+    color: #9dcdfe;
+}
+.infect2{
+    float: left;
+    display:block;
+    background: #fff;
+    margin: 25px auto;
+    box-shadow: 2px 3px 8px #ccc;
+    cursor: pointer;
+}
+.infect2 li{
+    float: left;
+    width: 260px;
+    height: 260px;
+    display: block;
+    margin: 14px 6px 0 6px;
+}
+.infect2 li img{
+    width: 260px;
+    height: 180px;
+    display: block;
+    overflow: hidden;
+}
+/* .infect2 li p{
+    
+    font-size: 16px;
+    color: #3a3a3a;
+    padding-right: 5px;
+    margin-top: 35px;
+    height: 45px;
+    line-height: 45px;
+    text-indent: 30px;
+} */
+.infect2 li p::before{
+    content: '';
+    background-image: url(./../images/icon.png);
+    background-position: -6px -148px;
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+.video .t3{
+    /* float: left; */
+    height: 50px;
+    line-height: 50px;
+}
+.video .t3 .emoji3{
+    float: left;
+    width: 35px;
+    height: 35px;
+    /* display: inline-block; */
+    margin-top: 7px;
+    margin-right: 20px;
+    background-image: url(../images/emoji.png);
+    background-position: -40px 0;
+}
+.video .t3 h1{
+    float: left;
+    width: 400px;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 10px;
+}
+.video .t3 .more3{
+    float: right;
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 6px;
+    color: #9dcdfe;
+    border: 2px solid #9dcdfe;
+    border-radius: 5px;
+    text-align: center;
+}
+.video .t3 .more3 a{
+    font-size: 16px;
+    color: #9dcdfe;
+}
+.infect3{
+    float: left;
+    display:block;
+    background: #fff;
+    margin: 25px auto;
+    box-shadow: 2px 3px 8px #ccc;
+    cursor: pointer;
+}
+.infect3 li{
+    float: left;
+    width: 260px;
+    height: 260px;
+    display: block;
+    margin: 14px 6px 0 6px;
+}
+.infect3 li img{
+    width: 260px;
+    height: 180px;
+    display: block;
+    overflow: hidden;
+}
+.infect3 li p{
+    font-size: 16px;
+    color: #5b5b5b;
+    margin-top: 10px;
+}
+.infect3 li p span::before{
+    content: '';
+    background-image: url(./../images/icon.png);
+    background-position: -6px -148px;
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+
+}
+
+
+
+
+
+
+
+.music .t4{
+    /* float: left; */
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+.music .t4 .emoji4{
+    display: block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    /* display: inline-block; */
+    margin-top: 7px;
+    margin-right: 20px;
+    background-image: url(../images/emoji.png);
+    background-position: -40px 0;
+}
+.music .t4 h1{
+    float: left;
+    width: 400px;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 10px;
+}
+.music .t4 .more4{
+    float: right;
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    margin-top: 6px;
+    color: #9dcdfe;
+    border: 2px solid #9dcdfe;
+    border-radius: 5px;
+    text-align: center;
+}
+.music .t4 .more4 a{
+    font-size: 16px;
+    color: #9dcdfe;
+}
+.music .fashion{
+    float: left;
+    height: 174px;
+    display:block;
+    background: #fff;
+    margin: 25px auto;
+    box-shadow: 2px 3px 8px #ccc;
+}
+.music .fashion .music-cover{
+    float: left;
+    height: 174px;
+    width: 283px;
+    background: url(./../images/bg-music.jpg)no-repeat;
+    box-shadow: 2px 0px 6px #ccc;
+}
+.music .fashion ul{
+    width: 800px;
+    float: left;
+    /* display: inline-block; */
+    padding:13px 0 0 15px;
+}
+.music .fashion ul li{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 22px;
+    display: block;
+    position: relative;
+}
+.music .fashion ul li .order-block{
+    width: 9px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    display: block;
+    float: left;
+    background: #ff7800;
+    color: #fff;
+    font-size: 8px;
+    margin-right: 4px;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+.music .fashion ul li span{
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.music .fashion ul li .song-name{
+    width: 160px;
+    font: 12px/1 "Microsoft YaHei", SimSun, sans-serif;
+    margin-top: 9px;
+}
+.music .fashion ul li .song-name a:hover{
+    text-decoration:underline;
+    color: #676767;
+}
+.music .fashion ul li .song-singer{
+    width: 130px;
+    margin-left: 10px;
+    font: 12px/1 "Microsoft YaHei", SimSun, sans-serif;
+    margin-top: 9px;
+}
+.music .fashion ul li .song-singer a:hover{
+    text-decoration:underline;
+    color: #676767;
+}
+.music .fashion ul li .song-control{
+    float: left;
+    width: 54px;
+    height: 30px;
+    margin-left: 10px;
+    position: relative;
+}
+.song-control .down{
+    float: left;
+    width: 14px;
+    height: 13px;
+    display: block;
+    background: url(./../images/sprite.png) no-repeat;
+    background-position: -10px -59px;
+    left: 16px;
+    margin-top: 9px;
+}
+.song-control .view{
+    float: left;
+    width: 14px;
+    height: 14px;
+    display: block;
+    background: url(./../images/sprite.png) no-repeat;
+    background-position: -34px -59px;
+    left: 40px;
+    margin-top: 9px;
+    margin-left: 7px;
+}
+.song-miniplayer {
+    width: 375px;
+    height: 17px;
+    background-color: #555;
+    margin-top: 9px;
+    box-shadow: 1px 2px 8px #ccc;
+}
+.music .fashion.song-miniplayer .play{
+    float: left;
+    width: 25px;
+    height: 20px;
+    background-color: #fff;
+    padding: 0 6px;
+    margin: 0;
+    overflow: hidden;
+    border-right: 1px solid #000;
+}
+.go-top {
+    position: fixed;
+    display: none;
+    right: 50px;
+    bottom: 10%;
+    width: 30px;
+    height: 111px;
+    background: url(./../images/go_top.png) center center no-repeat;
+}
+
+.bottom{
+        display: block;
+        width: 100%;
+        height: 180px;
+        text-align: center;
+    
+}
+#bottom img {
+        width: 100%;
+        display: block;
+        height: 180px;
+        margin: 0 auto;
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jQuery轻量级平滑滚动返回顶部插件|DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<style type="text/css">
+		.dummy{width: 80%;margin: 0 auto;}
+		.dummy h3{font-size: 2.5em;text-align: center;font-weight: 600;}
+		.dummy p{text-indent: 2em;}
+		.dummy img{float: left;margin-right: 10px;}
+		.to-top{background: #3498db; color: #fff;padding: 15px;border-radius: 5px;}
+	</style>
+</head>
+<body>
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>jQuery轻量级平滑滚动返回顶部插件 <span>A customizable and light-weight plugin for smoothly Scroll back to Top</span></h1>
+			<div class="htmleaf-links">
+				<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> jQuery之家</span></a>
+				<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/jQuery/Layout-Interface/201505311938.html" title="返回下载页" target="_blank"><span> 返回下载页</span></a>
+			</div>
+		</header>
+		<div class="htmleaf-content bgcolor-3">
+			<div class="dummy">
+				<h3>花开一季，暖到落泪</h3>
+				<p class="center">—— 摘自<a href="http://www.duwenzhang.com/wenzhang/aiqingwenzhang/shanggan/20150518/325248.html" target="_blank">文章阅读网</a></p>
+				<p>爱在过境，缘分不停，向来情深，奈何缘浅。窗外小雨淅淅沥沥，我终于听见了下雨的声音，我的世界被吵醒，窗台上的滴落的雨滴，轻敲着伤心，凄美而动听。眼睛在下雨，心却为你打伞，一颗潮湿的心，一份滴水的痴情！倘若听见我哽咽的声音，请捂住耳朵，让我一直孤傲；倘若听看到我心碎的裂痕，请闭上眼睛，让我一直伤悲……</p>
+				<p>有些爱，越想抽离越清晰。有些人，越是想在乎越是被敷衍。我一味的在乎，却被你忽视得好离谱。我对你掏心掏肺，为你撕心裂肺，你却看着我独自伤心流泪，不来安慰一句。我被遗忘在无人知道的角落，自己安慰自己。我只能用坚强竖起一道墙，围起你给我的伤悲……</p>
+				<img src="img/demo-img.jpg" width="300px">
+				<p>其实我什么都不忘，只是有些事需要深藏。其实我挺想你的，只是知道你很好，我不方便打扰。我很清楚，你是我不能拥抱的太阳，毕竟你是太多人的光。要我怎么告诉你，我如何在你的梦里哭到失控？我的梦到哪里你都在，放不下你是我的活该！时间趁我不注意的时候，把所有人都变了模样，包括你。也许，因为爱的深，所有的悲伤和快乐都显得那么深刻，轻轻一碰就会惊天动地吧。</p>
+				<p>有时想，我这么一个好好的大人，又何必硬要到别人的生命里去当插曲？我很清楚，你是我不可以拥抱的暖阳，毕竟你是太多人的光。既然你的过去我来不及参与，你的未来我也不必奉陪。我很明白，过客而已，不必多情，何必打扰了别人弄痛了自己。恨这尘世无情，折杀了一往情深，一缕痴情，一腔痴念，潇潇雨下，忧伤逆流成河，泛滥成灾，一夜白发生……</p>
+				<p>思悠悠，念悠悠，每一个想你的夜晚，寂寞都来轻轻敲我心房的门！你甜蜜蜜的熟睡了，留下寂寞在我心里翻箱倒柜，怎么也找不到你的踪影。想你的夜，我无心睡眠。想你的夜，我独孤绝舞。想你的夜，越夜越美丽。想你，我与寂寞有染，想你，我与寂寞翩翩起舞……</p>
+				<p>常常想，是否等我沉默不语了，你才发现我的心声？是否等我放弃了，你才发现我的无怨无悔的付出？是否等我落泪了，你才发现我的伤痕？是否等我消失了，你才发现我的存在？是否等我转身了，你才发现我的爱？是否等我离开那一刻，你才说爱我？如果有一天，你走进我的心里，你会流泪，因为里面全是你给我留下的悲伤；如果有一天，我走进你的心里，我亦会哭流泪，因为里面全是你满满的无所谓……</p>
+				<p> 渐渐明白，太在乎一个人了，往往伤害的是自己；渐渐明白，很多爱情是可遇不可求；渐渐明白，很多东西只能拥有一次，放弃了，就意味着失去了；渐渐明白，牵手是爱，放手也是一种爱；渐渐明白，对一个人刻骨铭心付出了，心是收不回了；渐渐明白，最在乎的那个人，是最容易让你流泪；渐渐明白，真心爱一个人是不需要回报的；渐渐明白，爱到深处无尤怨，情到浓时方知苦；渐渐明白，有一种深爱叫爱不能语……</p>
+				<p>爱过知情重，醉过知酒浓，爱到极致，痛到无言。情到深处，伤不言痛，爱到深处，夫复何求？文字写到极致就是无言，爱到极点之后就是忘记……</p>
+				<p> 哭，不哭到微笑不痛快；痛，不痛到淋漓尽致不痛快；爱，不爱到淋漓尽致不痛快。爱，不需要刻意安排，只需把每一天都当末日来相爱，一分一秒，都会美到泪水掉下来……</p>
+				<P>一场邂逅，一恋倾城，一场离殇，一场疼痛；一世繁华，一世情缘，一场痴缠，一场梦空。我也许只是你生命中出现过的一道彩虹，彩虹再美，终究会消失，可惜不是你陪我到最后……</P>
+				<p>一季花开，满地忧伤，花开一季，落泪成雪。</p>
+				<p>执笔花落，滴墨成伤，落笔成泪，点墨成痛。</p>
+				<p>有一种泪，无声无息，汹涌澎湃，哭断天涯。</p>
+				<p>有一种痛，无裂无痕，撕心裂肺，肝肠寸断。</p>
+				<p>有一种伤，来势汹汹，逆流成河，泛滥成灾。</p>
+				<p>有一种爱，还没开口，泪已先流，泣不成声。</p>
+				<p>痴笑一场，狂哭一场，醉酒一场，梦断一生。</p>
+				<p>笑的断肠，哭的夸张，美人不归，空哭断肠！</p>
+				<p>一见倾心，一恋倾城，一曲恋歌，一场离殇。</p>
+				<p>一念成痴，一念成狂，一念成伤，一念成痛。</p>
+				<p>一季花开，一季倾城，一季花开，一季寂寞。</p>
+				<p>花开一季，心念一生，花开一季，暖到落泪。</p>
+
+			</div>
+		</div>
+		<!-- Scroll to Top button selector -->
+   		<a class="to-top">Top &uarr;</a>
+		<div class="related">
+		    <h3>如果你喜欢这个插件，那么你可能也喜欢:</h3>
+		    <a href="http://www.htmleaf.com/jQuery/Layout-Interface/20141215850.html">
+			  <img src="related/1.jpg" width="300" alt="jQuery超实用返回顶部插件"/>
+			  <h3>jQuery超实用返回顶部插件</h3>
+			</a>
+			<a href="http://www.htmleaf.com/jQuery/Layout-Interface/201504271745.html">
+			  <img src="related/2.jpg" width="300" alt="创意电梯上升效果的返回顶部js插件"/>
+			  <h3>创意电梯上升效果的返回顶部js插件</h3>
+			</a>
+		</div>
+	</div>
+	
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+   <script src="js/jquery.toTop.min.js"></script>
+   
+   <script>
+       jQuery(function($){
+           // Plugin activation (basic)
+           // $('.to-top').toTop();
+
+           // Plugin activation with options
+           $('.to-top').toTop({
+               //options with default values
+               autohide: true,  //boolean 'true' or 'false'
+               offset: 420,     //numeric value (as pixels) for scrolling length from top to hide automatically
+               speed: 500,      //numeric value (as mili-seconds) for duration
+               right: 15,       //numeric value (as pixels) for position from right
+               bottom: 30       //numeric value (as pixels) for position from bottom
+           });
+       });
+   </script>
+</body>
+</html>

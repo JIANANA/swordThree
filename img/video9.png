@@ -1,0 +1,952 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+  <meta name="renderer" content="webkit">
+  <!-- 保证移动端页面能够展示完整页面 -->
+
+
+  <title>《剑网3》官网——次世代国风MMORPG</title>
+<meta name="keywords" content="新剑网3,剑侠情缘3,剑网3,剑侠3,剑3,攻略,纯武侠网游,经脉加点,资料库,新手指南,天策,万花,七秀,纯阳,少林,藏剑,五毒,游戏心得,下载,客户端,更新包,官网,剑网3官网,金山">
+<meta name="Description" content="新赛季，海量更新，福利满满！怒海争锋新资料片，优化提升50%，客户端体积大幅减小，人人都能感受大美江湖。海岛吃鸡来袭，东海武林进入新篇章，为您带来海量新故事" />  <!--外部css资源从这里开始-->
+  <link class="external" href="//zhcdn01.xoyo.com/xassets/com/pf/reset/reset.css" rel="stylesheet">
+  <link href="//zhcdn01.xoyo.com/assets/lib/dialog/artDialog/skins/001/ui.css" class="external" rel="stylesheet">
+
+  <!-- build:css assets/css/bundles.build.css -->
+  <link rel="stylesheet" href="//jx3.xoyo.com/assets/2018/11/26/assets/css/style.css">
+  <!-- endbuild -->
+  <style>
+    #jx3-top-navi-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+      height: 0;
+    }
+
+    #jx3-top-navi-bar~.ie-warning {
+      padding-top: 0.41667rem;
+    }
+
+    .layout-wrapper {
+      left: 0;
+      right: 0;
+    }
+
+    .layout-wrapper-container {
+      position: relative;
+      width: 6.25rem;
+      margin: 0 auto;
+      padding: 0 0.10417rem;
+      z-index: 10;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: #444;
+    }
+
+    .root {
+        margin-top: 0.26042rem;
+  		background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/index_bg_2560_tmp.jpg?pc_hash=ddd) no-repeat;
+  		background-position: center 0.3125rem;
+  		overflow: hidden;
+  		background-color: #f2f2f2;
+  		position: relative;
+    }
+
+    .main_page {
+      margin-top: 0.26042rem;
+      left: 50%;
+      margin-left: -5rem;
+      position: relative;
+      width: 10rem;
+    }
+
+    .allnews_warpper {
+      width: 7.08333rem;
+      margin: 0 auto;
+    }
+
+    .left {
+      float: left;
+    }
+
+    .right {
+      float: right;
+    }
+
+    .main_bot {
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/allnews/index_bg_bot_2560.jpg) center center no-repeat;
+      height: 4.63542rem;
+      margin-top: -1.97917rem;
+    }
+
+    .allnews_list_container {
+      font-size: 0.07292rem;
+      background-color: #fff;
+    }
+
+    .allnews_list_warpper {
+      width: 4.6875rem;
+      margin: 0 auto;
+    }
+
+    .allnews_list_ul {
+      border-bottom: 1px solid #BFDBE3;
+    }
+
+    .allnews_list_ul li {
+      font-size: 0.08333rem;
+      width: 0.41667rem;
+      cursor: pointer;
+      text-align: center;
+      float: left;
+      line-height: 0.26042rem;
+    }
+
+    .allnews_list_ul .active {
+      font-weight: bold;
+      color: #2c8ba3;
+    }
+
+    .allnews_list_ul .active span {
+      margin-bottom: -0.05208rem;
+      height: 0.04688rem;
+      display: block;
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/arr_down.png) center bottom no-repeat;
+    }
+
+    .article_list {
+      margin-top: 0.07813rem;
+    }
+
+    .article_list:hover {
+      -webkit-transition: all 0.5s ease 0s;
+      -o-transition: all 0.5s ease 0s;
+      transition: all 0.5s ease 0s;
+    }
+
+    .article_list ul {
+      display: block;
+    }
+
+    .article_list li {
+      height: 0.3125rem;
+      line-height: 0.3125rem;
+      border-bottom: #dadada dotted 1px;
+      font-size: 0.07292rem;
+      overflow: hidden;
+    }
+
+    .article_list li a {
+      color: #000000;
+    }
+
+    .article_list li em {
+      float: right;
+      color: #9b9b9b;
+    }
+
+    .article_list li span {
+      margin-top: 0.07813rem;
+    }
+
+    .article_list li span {
+      margin-top: 0.07813rem;
+      float: left;
+      margin: 0.13542rem 0.04688rem 0 0;
+      display: block;
+      width: 0.04167rem;
+      height: 0.04167rem;
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/allnews/lin.png);
+    }
+
+    .article_list li:hover span {
+      -webkit-transition: all 0.4s linear 0.05s;
+      -o-transition: all 0.4s linear 0.05s;
+      transition: all 0.4s linear 0.05s;
+      -webkit-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+    }
+
+    .height_light {
+      color: #2C8BA3;
+      float: left;
+    }
+
+    .pagination {
+      padding: 0.15625rem 0 0.375rem;
+      overflow: hidden;
+      text-align: center;
+      font-size: 0.07292rem;
+    }
+
+    .pagination a {
+      padding: 0.02604rem 0.0625rem;
+      margin: 0 0.01042rem;
+      border: #a5a5a5 solid 1px;
+      color: #000;
+    }
+
+    .detail_rig .pagination input {
+      padding: 0.01563rem 0;
+    }
+
+    .pagination button {
+      padding: 0.02604rem 0.03125rem;
+      margin: 0 1px;
+      background-color: #3e95a3;
+      border: 0 none;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .hd_web_box {
+      overflow: hidden;
+      min-height: 4.63542rem;
+    }
+
+    .detail_title {
+      padding: 0.13021rem 0 0.07813rem;
+      width: 100%;
+      font-size: 0.125rem;
+      text-align: center;
+      color: #000;
+    }
+
+    .detail_time {
+      margin: 0;
+      padding: 0 0 0.03646rem;
+      width: 100%;
+      border-bottom: #ccc solid 1px;
+      text-align: right;
+      color: #b6b6b6;
+    }
+
+    .detail_con {
+      overflow: hidden;
+      padding: 0.05208rem 0 0.18229rem;
+      width: 100%;
+      line-height: 0.13542rem;
+      color: #555;
+      font-size: 0.07292rem;
+    }
+
+    .detail_con img {
+      max-width: 100%;
+    }
+
+    .detail_bot {
+      overflow: hidden;
+      padding: 0.0625rem 0;
+      width: 100%;
+      border-top: #eee solid 1px;
+    }
+
+    .detail_bot_r {
+      float: right;
+      overflow: hidden;
+      width: 0.52083rem;
+      height: 0.15625rem;
+    }
+
+    .detail_bot_r li {
+      float: right;
+      width: 0.52083rem;
+      height: 0.15625rem;
+      background-color: #A8CED8;
+      line-height: 0.15625rem;
+      text-indent: 0.02604rem;
+      color: #fff;
+    }
+
+    .detail_bot_r li a,
+    .detail_bot_r li a:visited {
+      color: #fff;
+    }
+
+    .detail_bot_r li span {
+      display: block;
+      float: left;
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/allnews/icon_go_top.png) center no-repeat;
+      width: 0.07292rem;
+      height: 0.04167rem;
+      margin-top: 0.04688rem;
+      margin-left: 0.04167rem;
+    }
+
+    .detail_share {
+      float: right;
+      padding: 0.01563rem 0 0;
+      width: 0.74479rem;
+    }
+
+    body #jx3-top-navi-bar {
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/jx3_top_bg.jpg);
+    }
+
+    body #jx3-top-navi-bar a {
+      color: #A1A1A1;
+    }
+
+    body #jx3-top-navi-bar .t-links a.hlight {
+      color: #A1A1A1;
+    }
+
+    body #jx3-top-navi-bar .t-links a:hover,
+    #jx3-top-navi-bar .t-links a.active {
+      color: #A1A1A1;
+      background: none;
+    }
+
+    .xfe-group-53 {
+      position: absolute;
+      width: 13.33333rem;
+      margin-left: -6.66667rem;
+      left: 50%;
+      height: 0.3125rem;
+      top: 0;
+      z-index: 10;
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/top_nav_bg_2560.jpg);
+      background-position: center;
+    }
+
+    .top_nav_bar {
+      width: 7.08333rem;
+      margin: 0 auto;
+    }
+
+    .top_nav_bar li {
+      display: table-cell;
+      cursor: pointer;
+      width: 0.70833rem;
+      text-align: center;
+      font-size: 0.08333rem;
+      color: #BDBEBE;
+      line-height: 0.3125rem;
+      float: left;
+    }
+
+    .top_nav_bar li:hover {
+      width: 0.67708rem;
+      border: 0.01563rem solid #93CBD9;
+      line-height: 0.25rem;
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/top_nav_list_hover_bg_re.jpg) center bottom no-repeat;
+      background-color: #93CBDA;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .top_nav_bar li a {
+      color: #BDBEBE;
+    }
+
+    .top_nav_bar li:hover a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .top_nav_drop_down {
+      max-height: 0;
+      overflow: hidden;
+    }
+
+    .top_nav_drop_down a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .top_nav_arr {
+      width: 0.09375rem;
+      height: 0.04688rem;
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/top_nav_arr.png) center no-repeat;
+      background-size: cover;
+      margin: 0 auto;
+      margin-top: -0.04688rem;
+      display: none;
+    }
+
+    .top_nav_bar li:hover .top_nav_drop_down {
+      max-height: 2.60417rem;
+      -webkit-transition: max-height 0.5s ease-in;
+      -o-transition: max-height 0.5s ease-in;
+      transition: max-height 0.5s ease-in;
+      margin-bottom: 0.07813rem;
+    }
+
+    .top_nav_bar li:hover .top_nav_arr {
+      display: block;
+    }
+
+    .top_nav_bar li:hover .top_nav_hover_border {
+      width: 0.64583rem;
+      border: 0.01563rem solid #5FABBE;
+    }
+
+    .top_nav_bar .drop_info {
+      font-size: 0.08333rem;
+      font-weight: normal;
+      line-height: 0.09375rem;
+      margin: 0.05208rem 0;
+    }
+
+    .top_nav_bar .drop_info:hover {
+      color: #fff;
+    }
+
+    .drop_service_hover {
+      -webkit-transition: 0.5s ease-in;
+      -o-transition: 0.5s ease-in;
+      transition: 0.5s ease-in;
+      height: 0px;
+      margin-top: 0.05208rem;
+    }
+
+    .drop_service_hover img {
+      display: none;
+    }
+
+    .drop_hover:hover .drop_service_hover img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .drop_hover:hover .drop_service_hover {
+      -webkit-transition: 0.5s ease-in;
+      -o-transition: 0.5s ease-in;
+      transition: 0.5s ease-in;
+      height: 0.52083rem;
+    }
+
+    .drop_service_tel {
+      position: absolute;
+      text-indent: -0.06771rem;
+      width: 0;
+      overflow: hidden;
+      color: #fff;
+      margin-top: -0.11458rem;
+      height: 0.14583rem;
+      line-height: 0.14583rem;
+      -webkit-transition: 0.5s ease-in;
+      -o-transition: 0.5s ease-in;
+      transition: 0.5s ease-in;
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/allnews/drop_service_tel.png);
+      background-size: cover;
+    }
+
+    .drop_service_tel_num {
+      display: none;
+    }
+
+    .drop_hover:hover .drop_service_tel {
+      width: 0.72396rem;
+      margin-left: -0.59896rem;
+      -webkit-transition: 0.5s ease-in;
+      -o-transition: 0.5s ease-in;
+      transition: 0.5s ease-in;
+    }
+
+    .drop_hover:hover .drop_service_tel_num {
+      display: block;
+    }
+
+    .common_info {
+      width: 1.91667rem;
+      margin-right: 0.08333rem;
+    }
+
+    .game_download {
+      width: 1.91667rem;
+      height: 0.875rem;
+      margin-bottom: 0.02083rem;
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/change/down_off.png?pc_hash=UT8DRU);
+      background-size: cover;
+    }
+
+    .game_download:hover {
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/change/down_on.png?pc_hash=UT8DRU);
+      background-size: cover;
+    }
+
+    .game_reg {
+      width: 0.94792rem;
+      height: 0.46875rem;
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/change/register_off.jpg?pc_hash=UT8DRU);
+      background-size: cover;
+    }
+
+    .game_reg:hover {
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/change/register_on.png?pc_hash=UT8DRU);
+      background-size: cover;
+    }
+
+    .game_charge {
+      width: 0.94792rem;
+      height: 0.46875rem;
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/change/charge_off.jpg?pc_hash=UT8DRU);
+      background-size: cover;
+    }
+
+    .game_charge:hover {
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/change/charge_on.png?pc_hash=UT8DRU);
+      background-size: cover;
+    }
+
+    .advl {
+      width: 1.91667rem;
+      height: 1.1875rem;
+      margin: 0.08333rem 0;
+    }
+
+    .advl img {
+      width: 1.91667rem;
+      height: 1.1875rem;
+      display: block;
+    }
+
+    .service_info {
+	  width: 1.91667rem;
+	  height: 1.96875rem;
+	}
+
+    .service_qrcode {
+      float: left;
+    }
+
+    .sq_1 {
+      margin-left: 0.3125rem;
+    }
+
+    .sq_2 {
+      margin-left: 0.39583rem;
+    }
+
+    .sq_3 {
+      margin-top: 0.41667rem;
+      margin-left: 0.3125rem;
+    }
+
+    .sq_4 {
+      margin-top: 0.41667rem;
+      margin-left: 0.39583rem;
+    }
+
+    .detail_tit {
+      background: url(//jx3.xoyo.com/assets/2018/11/26/assets/images/change/detail_tit.png?pc_hash=UT8DRU);
+      width: 5.07292rem;
+      height: 0.46875rem;
+    }
+
+    .detail_tit_l {
+      float: left;
+      padding: 0 0 0 0.15625rem;
+      width: 1.30208rem;
+      line-height: 0.46875rem;
+      font-size: 0.15625rem;
+      color: #fff;
+    }
+
+    .detail_tit_r {
+      margin: 0;
+      float: right;
+      width: 2.86458rem;
+      padding: 0 0.09375rem 0 0;
+      font-size: 0.07292rem;
+      line-height: 0.46875rem;
+      color: #fff;
+      text-align: right;
+    }
+
+    .detail_tit a,
+    .detail_tit a:visited {
+      color: #fff;
+    }
+
+    #__PUBLIC_FOOTER__ {
+      height: 1.19792rem;
+      background-color: #222;
+    }
+
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//zhcdn01.xoyo.com/xassets/lib/shim/xfe/xfe-shim.min.js"></script>
+<![endif]-->
+  <script>
+    if (!window.Promise) {
+      document.writeln('<script src="//zhcdn01.xoyo.com/xassets/lib/es6-promise/stable/es6-promise.auto.min.js"' + '>' +
+        '<' + '/' + 'script>');
+    }
+
+  </script>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+  <!--[if lt IE 7]>
+<div id="__IE_WARNING__" style="padding: 80px 0; width: 100%; text-align: center; line-height: 150%; font-size: 16px; background: #fff;">
+    <h3>抱歉</h3>
+    <p>由于官网使用HTML5技术，您的浏览器版本过低不能正常访问<br>建议您升级您的浏览器！既能享受新技术的革新，又能保障您的上网安全</p>
+    <a href="http://browsehappy.osfipin.com/" style="color:red;">立即升级浏览器</a>
+</div>
+<![endif]-->
+<style>
+    .pop-reg-i {
+            width: 938px; height: 842px; position: absolute; left: 50%; margin-left: -469px; top: 120px; z-index: 1301; display: none
+        }
+</style>
+<div  class="J_popRegBox pop-reg-i">
+  <div style="position: absolute; right: 60px; top: 40px; width: 100px; height: 100px; cursor: pointer" class="J_popRegClose"></div>
+  <iframe src="//jx3.xoyo.com/zt/2019/04/12/reg-website/index-bak.html" width="938px" height="842px" frameborder="0"></iframe>
+</div>
+<div style="position: fixed;display: none; width: 100%; top: 0; left: 0;height: 6000px;  background: #000;opacity: .7; z-index: 1300;" class="J_popRegMask"></div>
+  <div class="layout-wrapper">
+
+    <div class="all_index_page">
+
+      <div class="root">
+        <div class="top_nav_drop_down-warpper">
+    <div class="xfe-group-53" data-name="导航栏">
+      <ul class="top_nav_bar">
+        <li>
+          <a target="_blank" href="//jx3.xoyo.com/index/">
+          	<div class="top_nav_hover_border">
+          	  官网首页
+          	</div>
+          </a>
+          <div class="top_nav_arr"></div>
+        </li>
+        <li>
+          <div class="top_nav_hover_border">
+            <a target="_blank" href="//jx3.xoyo.com/gn/">
+            	游戏特色
+            </a>
+            <div class="top_nav_drop_down">
+              <a target="_blank" href=""><div class="top_nav_list_hover_line"></div></a>
+              <a target="_blank" href="//jx3.xoyo.com/gn/index.html?to=sj"><div class="drop_info">国风大世界</div></a>
+              <a target="_blank" href="//jx3.xoyo.com/gn/index.html?to=mp"><div class="drop_info">门派</div></a>
+              <a target="_blank" href="//jx3.xoyo.com/gn/index.html?to=qg"><div class="drop_info">轻功</div></a>
+              <a target="_blank" href="//jx3.xoyo.com/gn/index.html?to=wf"><div class="drop_info">玩法</div></a>
+              <a target="_blank" href="//jx3.xoyo.com/gn/index.html?to=qz"><div class="drop_info">圈子</div></a>
+            </div>
+            <div class="top_nav_arr"></div>
+          </div>
+        </li>
+        <li>
+          <div class="top_nav_hover_border">
+           	 <a target="_blank" href="//jx3.xoyo.com/allnews/">
+               新闻/活动
+             </a>
+            <div class="top_nav_drop_down">
+              <div class="top_nav_list_hover_line"></div>
+              <a target="_blank" href="//jx3.xoyo.com/allnews/"><div class="drop_info">最新</div></a>
+              <a target="_blank" href="//jx3.xoyo.com/hd/"><div class="drop_info">活动</div></a>
+              <a target="_blank" href="//jx3.xoyo.com/press/"><div class="drop_info">新闻</div></a>
+              <a target="_blank" href="//jx3.xoyo.com/announce/"><div class="drop_info">公告</div></a>
+            </div>
+            <div class="top_nav_arr"></div>
+          </div>
+        </li>
+        <li>
+          <div class="top_nav_hover_border">
+            <a target="_blank" target="_blank" href="//jx3.xoyo.com/zb/">
+              视频/直播
+            </a>
+            <div class="top_nav_drop_down">
+              <div class="top_nav_list_hover_line"></div>
+              <a target="_blank" href="//jx3.xoyo.com/zb/index.html"><div class="drop_info">推荐</div></a>
+              <a href="#hot_video"><div class="drop_info">剧情</div></a>
+              <a href="#hot_video"><div class="drop_info">赛事</div></a>
+              <a href="#hot_video"><div class="drop_info">研发小剧场</div></a>
+              <a href="#hot_video"><div class="drop_info">精彩直播</div></a>
+            </div>
+            <div class="top_nav_arr"></div>
+          </div>
+        </li>
+        <li>
+          <div class="top_nav_hover_border">
+            <a target="_blank" href="//jx3.xoyo.com/tr/index.html">
+              同人站
+            </a>
+            <div class="top_nav_drop_down">
+              <div class="top_nav_list_hover_line"></div>
+              <a target="_blank" href="//jx3.xoyo.com/tr/cos.html"><div class="drop_info">COS</div></a>
+              <a target="_blank" href="//jx3.xoyo.com/tr/painting.html"><div class="drop_info">美图</div></a>
+              <a target="_blank" href="//jx3.xoyo.com/tr/video.html"><div class="drop_info">视频</div></a>
+              <a target="_blank" href="//jx3.xoyo.com/tr/music.html"><div class="drop_info">音乐</div></a>
+            </div>
+            <div class="top_nav_arr"></div>
+          </div>
+        </li>
+        <li>
+          <div class="top_nav_hover_border">
+            <a target="_blank" href="//jx3.xoyo.com/download/">
+            	下载游戏
+            </a>
+            <div class="top_nav_arr"></div>
+          </div>
+        </li>
+        <li>
+          <div class="top_nav_hover_border">
+            <a target="_blank" href="//daily.xoyo.com/">
+            	剑网3推栏
+            </a>
+            <div class="top_nav_drop_down">
+              <div class="top_nav_list_hover_line"></div>
+              <a target="_blank" href="//jx3.xoyo.com/zt/2018/04/16/download/index.html"><div class="drop_info" style="font-size:0.07292rem;">随时随地密聊亲友</div></a>
+              <div class="drop_info">
+                <img src="//jx3.xoyo.com/assets/2018/11/26/assets/images/change/jh_d_qr.jpg?pc_hash=M0R85W" alt="" style="width:90%;">
+              </div>
+            </div>
+            <div class="top_nav_arr"></div>
+          </div>
+        </li>
+        <li>
+            <div class="top_nav_hover_border">
+                <a target="_blank" href="//jx3.xoyo.com/zt/2018/05/22/linglong/mobile.html">
+                    玲珑密保锁
+                </a>
+                <div class="top_nav_drop_down">
+                    <div class="top_nav_list_hover_line"></div>
+                    <a target="_blank" href="//jx3.xoyo.com/zt/2018/05/22/linglong/mobile.html">
+                        <div class="drop_info" style="font-size:0.07292rem;">随时随地守护<br>您的账号安全</div>
+                    </a>
+                    <div class="drop_info">
+                        <img src="//jx3.xoyo.com/assets/2018/11/26/assets/images/change/ll_qrcode.jpg?pc_hash=M0R85W"
+                            alt="" style="width:90%;">
+                    </div>
+                </div>
+                <div class="top_nav_arr"></div>
+            </div>
+        </li>
+        <a target="_blank" href="//jx3.bbs.xoyo.com/">
+        	<li>
+        	  <div class="top_nav_hover_border">
+        	    论坛
+        	    <div class="top_nav_arr"></div>
+        	  </div>
+        	</li>
+		</a>
+        <li>
+          <div class="top_nav_hover_border">
+            <a target="_blank" href="//kefu.xoyo.com/index.php?r=part&id=1">
+              客服
+            </a>
+            <div class="top_nav_drop_down">
+              <div class="top_nav_list_hover_line"></div>
+              <a target="_blank" href="//kefu.xoyo.com/index.php?r=part&id=1"><div class="drop_info">客服中心</div></a>
+              <a target="_blank" href=" https://faqrobot.kefu.xoyo.com/robot/chat2.html?jid=5&sysNum=1476067342641247&sourceId=107"><div class="drop_info">在线客服</div></a>
+              <div class="drop_info drop_hover">客服热线
+                <div class="drop_service_tel">
+                  <div class="drop_service_tel_num">
+                    028-85309911
+                  </div>
+                </div>
+              </div>
+              <div class="drop_info drop_hover">客服微信
+                <div class="drop_service_hover">
+                  <img src="//jx3.xoyo.com/assets/2018/11/26/assets/images/change/ser_qr.jpg?pc_hash=M0R85W" alt="" style="width:90%;">
+                </div>
+              </div>
+            </div>
+            <div class="top_nav_arr"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+</div>        <div class="main_page">
+          <div class="allnews_warpper clearfix">
+            <div class="span" style="height:532px;"></div>
+            <div class="left">
+				              <div class="common_info">
+                <a href="/download/">
+                  <div class="game_download"></div>
+                </a>
+                <div class="service_box clearfix">
+                  <a class="J_xpassRegBtnNew" href="javascript:;">
+                    <div class="left game_reg"></div>
+                  </a>
+                  <a href="//charge.xoyo.com/pay?item=jx3">
+                    <div class="right game_charge"></div>
+                  </a>
+                </div>
+                                                <a href="https://jx3.xoyo.com/zt/2018/08/14/card/#/" target="_blank">
+                  <div class="advl">
+                    <img src="http://jx3.xoyo.com/uploadfile/2019/0110/20190110095832130.jpg" alt="剑网3联名信用卡">
+                  </div>
+                </a>
+                                                                                <a href="http://jx3.xoyo.com/zt/2019/08/28/ten-events/index.html?utm_source=jx3gw-cq" target="_blank">
+                  <div class="advl">
+                    <img src="http://jx3.xoyo.com/uploadfile/2019/0829/20190829060409638.jpg" alt="剑网3大事记">
+                  </div>
+                </a>
+                                                <div class="service_info">
+                  <img src="//jx3.xoyo.com/assets/2018/11/26/assets/images/qrcode/qr_code_inner.png" width="100%" alt="">
+                </div>
+              </div>            </div>
+            <div class="right">
+              <div class="allnews_info_warp clearfix">
+                <div class="detail_tit">
+                  <h3 class="detail_tit_l"> 剧情</h3>
+                  <p class="detail_tit_r">您的位置：<a href="/index">官网首页</a> > <a href="/allnews/">最新资讯</a> > 正文</p>
+                </div>
+              </div>
+              <div class="allnews_list_container">
+                <div class="allnews_list_warpper">
+                  <div class="hd_web_box">
+                    <h2 class="detail_title">剑网3中秋礼盒首曝！且喜人间好时节中秋剧情大片上映</h2>
+                    <p class="detail_time"> 2019-09-12 16:25:22 </p>
+                    <div class="detail_con">
+						<p><span helvetica="" hiragino="" microsoft="" pingfang="" sans="" style="color: rgb(33, 33, 33);" white-space:="">剑网3中秋佳节到，且喜人间好时节，九月中秋剧情大片首映！奢华中秋礼盒&ldquo;越吟歌酒&rdquo;揭开神秘面纱，更多神秘彩蛋戳视频抢先看！</span></p>
+<p><iframe allowfullscreen="true" border="0" frameborder="0" framespacing="0" height="800" scrolling="no" src="//player.bilibili.com/player.html?aid=67336730&amp;cid=116752415&amp;page=1" width="100%"></iframe></p>
+<p><span style="color: rgb(33, 33, 33);">Cast： 叶芷青（幼年）-萧默歌</span></p>
+<p><span helvetica="" hiragino="" microsoft="" pingfang="" sans="" style="color: rgb(33, 33, 33);" white-space:="">萧白胭（幼年）-夏初临</span></p>
+<p><span helvetica="" hiragino="" microsoft="" pingfang="" sans="" style="color: rgb(33, 33, 33);" white-space:="">二娘-兔原</span></p>
+<p><span helvetica="" hiragino="" microsoft="" pingfang="" sans="" style="color: rgb(33, 33, 33);" white-space:="">大娘-枫刹若舞</span></p>
+<p><span helvetica="" hiragino="" microsoft="" pingfang="" sans="" style="color: rgb(33, 33, 33);" white-space:="">叶芷青-风镜</span></p>
+<p><span helvetica="" hiragino="" microsoft="" pingfang="" sans="" style="color: rgb(33, 33, 33);" white-space:="">萧白胭-马甜甜</span></p>
+<p><span helvetica="" hiragino="" microsoft="" pingfang="" sans="" style="color: rgb(33, 33, 33);" white-space:="">路人1-萧默歌</span></p>
+<p><span helvetica="" hiragino="" microsoft="" pingfang="" sans="" style="color: rgb(33, 33, 33);" white-space:="">路人2-夏初临</span></p>
+<p><span helvetica="" hiragino="" microsoft="" pingfang="" sans="" style="color: rgb(33, 33, 33);" white-space:="">路人3-枫刹若舞</span></p>
+<p><span helvetica="" hiragino="" microsoft="" pingfang="" sans="" style="color: rgb(33, 33, 33);" white-space:="">后期-圆圆</span></p>
+<p><span helvetica="" hiragino="" microsoft="" pingfang="" sans="" style="color: rgb(33, 33, 33);" white-space:="">配音统筹-夏初临</span></p>
+                    </div>
+                    <div class="pagination"></div>
+                    <div class="detail_bot">
+                      <div class="detail_bot_r">
+                        <ul>
+                          <li>
+                            <a href="#">
+                              <span class="dr02">
+                              </span>
+                              返回顶部
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="detail_share">
+                        <div class="bdsharebuttonbox bdshare-button-style0-16" data-tag="share_1" data-bd-bind="1542940882020">
+                          <a class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">
+                          </a>
+                          <a class="bds_sqq" data-cmd="sqq" href="#" title="分享到QQ好友">
+                          </a>
+                          <a class="bds_weixin" data-cmd="weixin" href="#" title="分享到微信">
+                          </a>
+                          <a class="bds_qzone" data-cmd="qzone" href="#" title="分享到QQ空间">
+                          </a>
+                          <a class="bds_more" data-cmd="more">
+                            更多
+                          </a>
+                        </div>
+                        <script>
+                          window._bd_share_config = {
+                            common: {
+                              //此处放置通用设置
+                              bdText: '《剑网3》重制版是由金山软件西山居开发运营的全新旗舰级3D MMORPG。游戏采用自主研发的DX11的次世代引擎，通过PBR物理渲染技术来展现独树一帜的写意国风。浓郁的风格化服饰与作画细节，彰显了《剑网3》特有的文化底蕴，呈现给玩家壮丽华美的大唐世界。',
+                              bdDesc: '《剑网3》作为中国国民级武侠MMORPG，开创轻功武侠玩法，揭开乱世大唐历史篇章，凭借优异的美术设计和友好的社交氛围受到了众多玩家的赞誉，为千万武侠迷营造出一个如梦似幻的江湖世界。',
+                              bdUrl: 'http://jx3.xoyo.com',
+                              bdPic: 'http://jx3.xoyo.com/assets/website/2017/09/25/czbpc/share-pc.jpg'
+                            },
+                            share: [{
+                              //此处放置分享按钮设置
+                              bdSize: '16'
+                            }],
+                            slide: [
+                              //此处放置浮窗分享设置
+                            ],
+                            image: [
+                              //此处放置图片分享设置
+                            ],
+                            selectShare: [
+                              //此处放置划词分享设置
+                            ]
+                          }
+
+                          //以下为js加载部分
+                          with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script'))
+                            .src =
+                            '//zhcdn01.xoyo.com/xassets/com/pf/baiduShare/static/api/js/share.js'];
+
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main_bot"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="__PUBLIC_FOOTER__"></div>
+
+  <!--外部资源从这里开始-->
+  <script class="external" src="//zhcdn01.xoyo.com/xassets/lib/jquery/1.7.2/jquery.min.js"></script>
+  <script class="external" src="//zhcdn01.xoyo.com/xassets/lib/dialog/artDialog/4.1.7/artDialog.js"></script>
+  <script class="external" src="//zhcdn01.xoyo.com/xassets/com/pf/register/jsreg/v2/register.js"></script>
+  <script class="external" src="//zhcdn01.xoyo.com/xassets/com/pf/xpass/v1/xpass.js"></script>
+  <script class="external" src="//zhcdn01.xoyo.com/xassets/com/jx3/navibar/v2/navibar.js"></script>
+  <script class="external" src="//zhcdn01.xoyo.com/xassets/com/pf/footer/v3/black/footer.js"></script>
+
+  <!-- build:vendors assets/scripts/vendors.js -->
+  <!--第三方脚本从这里开始-->
+  <!-- endbuild -->
+
+  <!-- build:js assets/scripts/bundles.build.js -->
+  <script src="assets/scripts/main.js"></script>
+  <!-- endbuild -->
+  <script>
+    (function ($) {
+      var o = $({});
+      $.subscribe = function () {
+        o.on.apply(o, arguments);
+      };
+      $.subscribeOnce = function (name, rawFunc) {
+        var func = function func() {
+          $.unsubscribe.apply(null, arguments);
+          rawFunc.apply(this, arguments);
+        };
+        $.subscribe.apply(null, [name, func]);
+      };
+      $.unsubscribe = function () {
+        o.off.apply(o, arguments);
+      };
+      $.publish = function () {
+        console.log(arguments[0]);
+        o.trigger.apply(o, arguments);
+      };
+    })(jQuery);
+       function loginStatus(){
+    XPASS.rending();
+  }
+$(function () {
+	$('.J_popRegClose').on('click', function () {
+      $('.J_popRegBox, .J_popRegMask').hide();
+    });
+    $('#J_xpassRegBtn').attr('href','javascript:;');
+    $(document).on('click','#J_xpassRegBtn, .J_xpassRegBtnNew', function () {
+    $('.J_popRegBox, .J_popRegMask').show();
+    $('.J_popRegBox').css('top', $(document).scrollTop() + 40)
+    });
+});  </script>
+  <script type="text/javascript" src="http://jx3.xoyo.com/api.php?op=count&id=3472&modelid=187"></script>
+</body>
+
+</html>
