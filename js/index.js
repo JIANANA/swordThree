@@ -183,8 +183,4 @@ $(function() {
     $('.part3-2 .world-bg').eq(num2).stop().fadeIn(600).siblings().stop().fadeOut(600);
     $('.part3-4-1 .layer').eq(num2).addClass('act').siblings().removeClass('act');
   }, 5000)
-
-
-
-
-})
+});

@@ -28,7 +28,7 @@ $(document).ready(function () {
             $(this).siblings().children("a").removeClass("nowfont").siblings(".arr").hide();
             $(this).children("a").addClass("nowfont").siblings(".arr").slideDown(300);
 
-            //精彩直播的tab上面样式切换
+            //tab上面li样式切换
             $(this).addClass("nowfont").siblings().removeClass("nowfont");
 
             //获取目前显示的div的索引值index
@@ -45,7 +45,7 @@ $(document).ready(function () {
             //一、如果点击的li_index>显示的index
             if (li_index > index) {
 
-                //让点击之前显示的div，left变成-400
+                //让当前显示的div盒子左滑移出，移出后定位left：-自身盒子的宽度
                 $("." + div_on).show().animate({
                     left: - $("." + div_on).outerWidth(true)
                 })
@@ -55,12 +55,19 @@ $(document).ready(function () {
                     left: 0
                 }).siblings().removeClass(div_on);
 
-                //让点击之前显示的div和当前显示的div中间的div定位发生变化-400
+                /* 
+                    断层问题:
+                        代码写完以后在第一次点击的时候会出现当前显示的第一个div盒子突然隐藏，出现断层，不是无缝连接，输出div的index是-1
+                        并且只有第一次点击的时候会出现这样的情况，第二次点击及以后并不会有这样的情况
+                        解决方案：在点击事件之前声明一个变量count，每次点击的时候，手动设置当前显示的div的索引值是0
+                
+                */
+
                 if (count == 0) {
                     index = 0;
                     count++;
                 }
-
+                //让之前显示的div和现在显示的div的之间的div位置移动自身宽度的负值
                 for (var i = index + 1; i < li_index; i++) {
                     div.eq(i).hide().css("left", -$("." + div_on).outerWidth(true));
                 }
@@ -70,7 +77,7 @@ $(document).ready(function () {
             //二、如果点击的li_index<显示的index
             else if (li_index < index) {
 
-                //让点击之前显示的div的left值变成+400
+                //让点击之前显示的div的left值变成+自身宽度
                 $("." + div_on).show().animate({
                     left: +$("." + div_on).outerWidth(true)
                 })
@@ -80,7 +87,7 @@ $(document).ready(function () {
                     left: 0
                 }).siblings().removeClass(div_on);
 
-                //让之前显示的div和现在显示的div的之间的div位置变成400
+                //让之前显示的div和现在显示的div的之间的div位置移动自身宽度
                 for (var i = li_index + 1; i < index; i++) {
                     div.eq(i).hide().css("left", $("." + div_on).outerWidth(true));
                 }
@@ -183,16 +190,34 @@ $(document).ready(function () {
 
 
 
-    
+
     //进页面遮罩层的点击关闭事件
-    $(".close").one('click',function(){
+    $(".close").click(function () {
         $(".img").css('transform', 'scale(0)').css('left', '-2000px');
         $('.zhezhao').fadeOut(500);
     })
-    // $(".close").click(function () {
-        
-    //     // $(".close").off();
-    // });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 })
 
 

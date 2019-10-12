@@ -159,7 +159,7 @@
     height: 250px;
     width: 480px;
     float: left;
-    display: inline;
+    /* display: inline; */
     padding-left: 20px;
     margin-right: 35px;
 }
@@ -186,7 +186,7 @@
 }
 .hardware-asked-pc-tab li{
     float: left;
-    display: inline;
+    /* display: inline; */
     width: 112px;
     height: 33px;
     line-height: 33px;
@@ -220,7 +220,7 @@
     height: 114px;
 }
 .hardware-asked-pc-text-warp p {
-    padding-top: 9px;
+    /* padding-top: 9px; */
     color: #fff;
 }
 .hardware-asked-pc-effect p {
@@ -243,7 +243,7 @@
     height: 250px;
     width: 480px;
     float: left;
-    display: inline;
+    /* display: inline; */
     padding-left: 20px;
     margin-right: 35px;
 }
@@ -264,7 +264,7 @@
 }
 .hardware-requirement-pocket-tab li {
     float: left;
-    display: inline;
+    /* display: inline; */
     width: 112px;
     height: 33px;
     line-height: 33px;
@@ -281,7 +281,7 @@
     border-right: 1px solid #bfa885;
 }
 .hardware-requirement-pocket-content {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     font-size: 16px;
     color: #caced8;
     height: 125px;
@@ -352,7 +352,7 @@
 }
 .game-self-service-user {
     float: left;
-    display: inline;
+    /* display: inline; */
     width: 295px;
     margin-right: 18px;
 }
@@ -371,7 +371,7 @@
 }
 .game-self-service-login-links li {
     float: left;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 16px;
 }
 .game-self-service-login-links a {
@@ -416,7 +416,7 @@
 }
 .game-self-service-safe-status li {
     float: left;
-    display: inline-block;
+    /* display: inline-block; */
     width: 19%;
     margin-right: 1px;
     height: 7px;
@@ -551,7 +551,7 @@ option {
 .game-self-service-tools {
     float: left;
     width: 785px;
-    display: inline;
+    /* display: inline; */
 }
 .game-self-service-tools-wrap {
     padding: 35px 50px;
@@ -941,7 +941,7 @@ tbody {
 .secret-lock li {
     float: left;
     margin-right: 10px;
-    display: inline;
+    /* display: inline; */
 }
 .secret-lock a {
     text-decoration: none;
@@ -1069,7 +1069,7 @@ p {
 }
 .faq-list li {
     float: left;
-    display: inline;
+    /* display: inline; */
     margin-right: 15px;
     margin-bottom: 15px;
 }

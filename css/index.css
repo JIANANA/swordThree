@@ -16,6 +16,18 @@ li {
   visibility: hidden;
   clear: both;
 }
+a:link {
+  text-decoration: none!important;
+}
+a:visited {
+  text-decoration: none!important;
+}
+a:hover {
+  text-decoration: none!important;
+}
+a:active {
+  text-decoration: none!important;
+}
 .jx3-top {
   position: relative;
   z-index: 99;
@@ -105,11 +117,6 @@ li {
   background-size: cover;
   z-index: 5;
   transition: all 0.5s;
-}
-.main .w .gw .gww:hover {
-  transform: translateX(-20px);
-  background: url(../images/gww.png);
-  background-size: cover;
 }
 .main .part0 {
   position: absolute;

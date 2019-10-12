@@ -9,39 +9,38 @@
     <link rel="icon" href="./icon.png" sizes="32x32">
     <link rel="stylesheet " href="./css/live.css">
     <link rel="stylesheet" href="./css/swiper.min.css">
-    <link rel="icon" href="">
+    <!-- <link rel="icon" href=""> -->
+    <title>《剑网3》官网------次世代国风MMORPG</title>
+    <link rel="icon" href="./icon.png" sizes="32x32">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="./assets/lib/normal/normalize.css">
+    <!-- 模态框(登录与注册弹出框)样式 -->
+    <link rel="stylesheet" href="./css/index_modal.css">
+    <!-- bootstrap样式 -->
+    <link rel="stylesheet" href="./assets/lib/bootstrap/css/bootstrap.min.css">
+    <!-- jq.js应在bootstrap.js之前引入 -->
+    <script src="./assets/lib/jquery/jquery.min.js"></script>
+    <script src="./assets/lib/bootstrap/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    <!-- 头部 -->
-    <div class="head-top clearfix">
-        <div class="w clearfix">
-            <div class="fl logo">
-                <a href="./index.html" class="logo-a">
-                    <img src="./images/剑三.png" alt=" ">
-                </a>
-                <div class="logo-font"></div>
-            </div>
-            <div class="head-top-nav fr">
-                <a href="">登录</a>
-                <a href="">注册</a>
-                <a href="">充值</a>
-                <a href="">老玩家回归</a>
-                <a href="">客服</a>
-                <a href="">增值服务</a>
-            </div>
-        </div>
-    </div>
+    <!-- 顶部导航栏 -->
+    <script src="./js/common/header.js"></script>
+    <!-- 模态框(登录与注册弹出框) -->
+    <!-- 模态框应为body的直接子标签 -->
+    <script src="./js/common/modal.js"></script>
     <!-- 固定导航栏 -->
     <div class="fixbox clearfix">
         <div class="w">
             <h1>
-                <a href="#" class="h1-l">
+                <a href="./offweb.html" class="h1-l">
                     <img src="./images/logoo.png">
                 </a>
             </h1>
-            <a href="#" class="fixbox-r">进入官网</a>
-            <a href="#" class="fixbox-r">下载</a>
-            <a href="#" class="fixbox-r">注册</a>
+            <a href="./offweb.html" class="fixbox-r">进入官网</a>
+            <a href="player.html#download" class="fixbox-r">下载</a>
+            <a href="player.html#download" class="fixbox-r">注册</a>
         </div>
     </div>
     <!-- 导航栏 -->
@@ -53,10 +52,10 @@
             <div class="loogright">
                 <ul>
                     <li class="line1">
-                        <a href="#">首页</a>
+                        <a href="./index.html">首页</a>
                     </li>
                     <li class="line2">
-                        <a href="#">直播</a>
+                        <a href="./live.html">直播</a>
                     </li>
                     <li class="line3">
                         <a href="#">赛事</a>
@@ -474,9 +473,46 @@
         </div>
     </div>
     <!-- 页面底部========================================= -->
-    <div class="floot clearfix">
-        <img src="./images/底部.png" alt="">
+
+    <!-- 底部开始 -->
+    <div class="bottom">
+        <div class="btw">
+            <div class="btwup">
+                <a href=""><img src="./img/btimg0.png" alt="" class="fl"></a>
+                <a href=""><img src="./img/btimg1.png" alt="" class="fl"></a>
+                <ul>
+                    <li class="fl">关于我们</li>
+                    <li class="fl">|</li>
+                    <li class="fl">诚聘英才</li>
+                    <li class="fl">|</li>
+                    <li class="fl">联系我们</li>
+                    <li class="fl">|</li>
+                    <li class="fl">服务协议</li>
+                    <li class="fl">|</li>
+                    <li class="fl">客服中心</li>
+                </ul>
+            </div>
+            <p><a href=" javascript:;">Copyright © 1999-2019 成都西山居世游科技有限公司 版权所有</a></p>
+            <p>
+                <a href="">
+                    增值电信业务经营许可证 川B2-20130104 蜀ICP备14009198号-2 川公网安备51019002000850号 文网游备字〔2017〕Ｃ-RPG 0031 号
+                    <img src="./img/gongan.png" alt="">
+                </a>
+            </p>
+            <p><a href=" javascript:;">网络文化经营许可证 川网文[2018]9435-346号　互联网出版许可证 新出网证<川>字027号</a></p>
+            <p><a href=" javascript:;">信息系统安全等级保护备案证书编号：51010013010　《网络游戏管理暂行办法》第九条内容 《中华人民共和国网络安全法》</a></p>
+            <div class="btwbt">
+                <img src="./img/btwbt1.png" alt="" class="fl">
+                <img src="./img/btwbt2.png" alt="" class="fl">
+                <p>婉拒18岁以下未成年用户进入游戏 健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身</p>
+                <p>
+                    合理安排时间 享受健康生活 进入：未成年人家长监护系统
+                    <span>违法和不良信息举报中心</span>
+                </p>
+            </div>
+        </div>
     </div>
+
 
     <a href="#" class="backTop"></a>
 

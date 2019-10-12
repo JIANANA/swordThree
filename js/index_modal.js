@@ -93,30 +93,43 @@ regFn($('.id_card'), regIdCard);
 var submit = document.querySelector('.submit');
 var leftConInps = document.querySelectorAll('.tab_content_left .con_inp');
 $('.submit1').click(function () {
+    var arr1 = [];
     var flag = true;
     $('.tab_content_left .con_inp').blur();
-    var gogogo = $('.error-icon').hasClass('active');
-    if (gogogo) {
+    $('.error-icon').each((i, e) => {
+        var newEl = $(e).hasClass('active');
+        if (newEl) {
+            arr1.push(newEl);
+        }
+    })
+    if (arr1.length) {
         flag = false;
     }
     if (flag) {
-        alert('注册成功');
-        location.href = 'http://jx3.xoyo.com/';
+        // alert('注册成功');
+        location.href = './offweb.html';
     } else {
-        console.log('注册失败');
+        alert('注册失败');
     }
 });
 $('.submit2').click(function () {
+    var arr2 = [];
     var flag = true;
     $('.tab_content_right .con_inp').blur();
-    var gogogo = $('.error-icon').hasClass('active');
-    if (gogogo) {
+    $('.control-label').each((i, e) => {
+        var newEl = $(e).hasClass('active');
+        if (newEl) {
+            arr2.push(newEl);
+        }
+    })
+    console.log(arr2);
+    if (arr2.length) {
         flag = false;
     }
     if (flag) {
-        alert('注册成功');
-        location.href = 'http://jx3.xoyo.com/';
+        // alert('注册成功');
+        location.href = './offweb.html';
     } else {
-        console.log('注册失败');
+        alert('注册失败');
     }
 });

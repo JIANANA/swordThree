@@ -433,7 +433,7 @@ a{
     position: relative;
     float: left;
     margin-right: 47px;
-   
+    cursor: pointer;
 }
 .section4 .role-habitus-box img{
     border: 2px solid transparent;
@@ -624,6 +624,7 @@ a{
     position: relative;
     float: left;
     margin-right: 46px;
+    cursor: pointer;
 }
 .section6 .role-habitus-box img{
     border: 2px solid transparent;
@@ -661,6 +662,7 @@ a{
     top: 0;
     bottom: 0;
     margin: auto;
+    cursor: pointer;
 }
 .section7 .gather-box img{
     margin-bottom: 10px;

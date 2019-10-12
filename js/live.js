@@ -5,10 +5,8 @@
 		var topVal = $(document).scrollTop();
 		// 判断
 		if (topVal >= $('.swiper-container').offset().top) {
-			$('.fixbox').fadeOut();
-		} else {
-			$('.fixbox').fadeIn();
-		}
+			$('.fixbox').css('top',0);
+		} 
 	}
 
 	$(window).scroll(function () {

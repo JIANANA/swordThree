@@ -3,7 +3,19 @@
     padding: 0;
 }
 a{
-    text-decoration: none;
+    text-decoration: none!important;
+}
+a:link{
+    text-decoration: none!important;
+}
+a:visited{
+    text-decoration: none!important;
+}
+a:hover{
+    text-decoration: none!important;
+}
+a:active{
+    text-decoration: none!important;
 }
 ul,li{
     list-style: none;
@@ -159,7 +171,7 @@ body{
 /* 中间导航======================================== */
 .mid-nav{
     /* float: left; */
-    width: 1280px;
+    /* width: 1280px; */
     height: 100px;
     background:url('../images/bg-bignav.png')no-repeat center;
     overflow: hidden;
@@ -264,7 +276,7 @@ body{
 
 /* live 右边的盒子 */
 .live-right{
-    position: absolute;
+    /* position: absolute; */
     float: right;
     display: block;
     right: 50px;
@@ -372,6 +384,7 @@ body{
 .com-title{
     width: 100%;
     height: 50px;
+    overflow: hidden;
 }
 .com-title .title-left{
     float: left;
@@ -381,12 +394,14 @@ body{
     font-size: 24px;
     color: #596165;
     margin: 15px 0;
+    overflow: hidden;
 }
 .com-title .title-left i{
     display: inline-block;
     width: 91px;
     height: 25px;
     vertical-align: middle;
+    overflow: hidden;
 }
 .com-title .title-left i:first-child{
     background: url('../images/pic-title-l.png');
@@ -522,6 +537,45 @@ body{
     width: 1280px;
     text-align: center;
 }
+
+/* ---------------------------------------底部开始 */
+.bottom {
+    height: 220px;
+    background-color: #222;
+    font-size: 10px;
+    color: #555;
+}
+.bottom .btw {
+    padding-top: 20px;
+    width: 850px;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: #fff; */
+}
+.bottom .btwup {
+    font-size: 12px;
+    height: 40px;
+    color: rgb(84, 93, 100);
+}
+
+.bottom .btw a {
+    color: #555;
+}
+
+.bottom .btw .btwbt {
+    margin-top: 10px;
+}
+
+.bottom .btw .btwbt img {
+    margin-right: 5px;
+}
+
+.bottom .btw .btwbt span {
+    color: #cc0e2b;
+    padding: 0 2px;
+}
+
+
 /* 返回顶部 */
 .backTop{
     display: block;

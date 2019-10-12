@@ -14,10 +14,10 @@ document.writeln("                    <a class=\'hlight link login\' class=\'btn
 document.writeln("                        data-target=\'#myModal\'>登录</a>");
 document.writeln("                    <a class=\'hlight link login\' class=\'btn btn-primary btn-lg\' data-toggle=\'modal\'");
 document.writeln("                        data-target=\'#myModal\'>注册</a>");
-document.writeln("                    <a href=\'https://charge.xoyo.com\' class=\'hlight link\'>充值</a>");
+document.writeln("                    <a href=\'player.html#main\' class=\'hlight link\'>充值</a>");
 document.writeln("                    <a href=\'player.html\' class=\'hlight link\'>老玩家回归指南</a>");
-document.writeln("                    <a href=\'https://kefu.xoyo.com\' class=\'link\'>客服</a>");
-document.writeln("                    <a href=\'https://passport.xoyo.com\' class=\'link\'>增值服务</a>");
+document.writeln("                    <a href=\'offweb.html#code\' class=\'link\'>客服</a>");
+document.writeln("                    <a href=\'#\' class=\'link\'>增值服务</a>");
 document.writeln("                </div>");
 document.writeln("            </div>");
 document.writeln("        </div>");
